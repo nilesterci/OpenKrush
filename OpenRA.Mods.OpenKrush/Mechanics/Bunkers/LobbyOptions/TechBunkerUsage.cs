@@ -25,7 +25,7 @@ public enum TechBunkerUsageType
 }
 
 [UsedImplicitly]
-[Desc("How a TechBunker can be opened.")]
+[Desc("Como um Tech Bunker pode ser aberto.")]
 public class TechBunkerUsageInfo : TraitInfo, ILobbyOptions
 {
 	public const string Id = "TechBunkerUsage";
@@ -35,12 +35,12 @@ public class TechBunkerUsageInfo : TraitInfo, ILobbyOptions
 	{
 		yield return new(
 			TechBunkerUsageInfo.Id,
-			"Usage",
-			"How a TechBunker can be opened.",
+			"Abertura",
+			"Como um Tech Bunker pode ser aberto.",
 			true,
 			0,
 			new ReadOnlyDictionary<string, string>(
-				new Dictionary<TechBunkerUsageType, string> { { TechBunkerUsageType.Proximity, "Proximity" }, { TechBunkerUsageType.Technician, "Technician" } }
+				new Dictionary<TechBunkerUsageType, string> { { TechBunkerUsageType.Proximity, "Proximidade" }, { TechBunkerUsageType.Technician, "Technician" } }
 					.ToDictionary(e => e.Key.ToString(), e => e.Value)
 			),
 			TechBunkerUsageInfo.Default.ToString(),

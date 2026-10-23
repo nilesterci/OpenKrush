@@ -24,7 +24,7 @@ public enum SaboteurUsageType
 }
 
 [UsedImplicitly]
-[Desc("What happens when a saboteur conquers a building.")]
+[Desc("O que acontece quando um Saboteur conquista um prédio.")]
 public class SaboteurUsageInfo : TraitInfo, ILobbyOptions
 {
 	private const string LobbyOptionsCategory = "saboteur";
@@ -36,12 +36,12 @@ public class SaboteurUsageInfo : TraitInfo, ILobbyOptions
 	{
 		yield return new(
 			SaboteurUsageInfo.Id,
-			"Usage",
-			"What happens when a saboteur conquers a building.",
+			"Efeito",
+			"O que acontece quando um Saboteur conquista um prédio.",
 			true,
 			0,
 			new ReadOnlyDictionary<string, string>(
-				new Dictionary<SaboteurUsageType, string> { { SaboteurUsageType.Destroy, "Destroy" }, { SaboteurUsageType.Conquer, "Conquer" } }.ToDictionary(
+				new Dictionary<SaboteurUsageType, string> { { SaboteurUsageType.Destroy, "Destruir" }, { SaboteurUsageType.Conquer, "Conquistar" } }.ToDictionary(
 					e => e.Key.ToString(),
 					e => e.Value
 				)

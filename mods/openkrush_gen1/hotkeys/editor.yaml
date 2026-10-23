@@ -1,0 +1,51 @@
+EditorUndo: Z Ctrl
+	Description: Desfazer
+	Types: Editor
+	Contexts: Editor
+	Platform:
+		OSX: Z Meta
+
+EditorRedo: Y Ctrl
+	Description: Refazer
+	Types: Editor
+	Contexts: Editor
+	Platform:
+		OSX: Z Meta, Shift
+		Linux: Z Ctrl, Shift
+
+EditorCopy: C Ctrl
+	Description: Copiar
+	Types: Editor
+	Contexts: Editor
+	Platform:
+		OSX: C Meta
+
+EditorTilesTab: E
+	Description: Aba Peças
+	Types: Editor
+	Contexts: Editor
+
+EditorOverlaysTab: R
+	Description: Aba Sobreposições
+	Types: Editor
+	Contexts: Editor
+
+EditorActorsTab: T
+	Description: Aba Atores
+	Types: Editor
+	Contexts: Editor
+
+EditorHistoryTab: Y
+	Description: Aba Histórico
+	Types: Editor
+	Contexts: Editor
+
+EditorToggleGridOverlay: F1
+	Description: Mostrar grade
+	Types: Editor
+	Contexts: Editor
+
+EditorToggleBuildableOverlay: F2
+	Description: Mostrar terreno construível
+	Types: Editor
+	Contexts: Editor

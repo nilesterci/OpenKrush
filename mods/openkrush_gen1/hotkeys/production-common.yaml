@@ -1,0 +1,129 @@
+CycleProductionBuildings: TAB Ctrl
+	Description: Próxima fábrica
+	Types: Production
+	Contexts: Player, Spectator
+
+SelectProductionBuilding: TAB
+	Description: Fábrica atual
+	Types: Production
+	Contexts: Player
+
+Production01: F1
+	Description: Vaga 01
+	Types: ProductionSlot
+	Contexts: Player
+
+Production02: F2
+	Description: Vaga 02
+	Types: ProductionSlot
+	Contexts: Player
+
+Production03: F3
+	Description: Vaga 03
+	Types: ProductionSlot
+	Contexts: Player
+
+Production04: F4
+	Description: Vaga 04
+	Types: ProductionSlot
+	Contexts: Player
+
+Production05: F5
+	Description: Vaga 05
+	Types: ProductionSlot
+	Contexts: Player
+
+Production06: F6
+	Description: Vaga 06
+	Types: ProductionSlot
+	Contexts: Player
+
+Production07: F7
+	Description: Vaga 07
+	Types: ProductionSlot
+	Contexts: Player
+
+Production08: F8
+	Description: Vaga 08
+	Types: ProductionSlot
+	Contexts: Player
+
+Production09: F9
+	Description: Vaga 09
+	Types: ProductionSlot
+	Contexts: Player
+
+Production10: F10
+	Description: Vaga 10
+	Types: ProductionSlot
+	Contexts: Player
+
+Production11: F11
+	Description: Vaga 11
+	Types: ProductionSlot
+	Contexts: Player
+
+Production12: F12
+	Description: Vaga 12
+	Types: ProductionSlot
+	Contexts: Player
+
+Production13: F1 CTRL
+	Description: Vaga 13
+	Types: ProductionSlot
+	Contexts: Player
+
+Production14: F2 CTRL
+	Description: Vaga 14
+	Types: ProductionSlot
+	Contexts: Player
+
+Production15: F3 CTRL
+	Description: Vaga 15
+	Types: ProductionSlot
+	Contexts: Player
+
+Production16: F4 CTRL
+	Description: Vaga 16
+	Types: ProductionSlot
+	Contexts: Player
+
+Production17: F5 CTRL
+	Description: Vaga 17
+	Types: ProductionSlot
+	Contexts: Player
+
+Production18: F6 CTRL
+	Description: Vaga 18
+	Types: ProductionSlot
+	Contexts: Player
+
+Production19: F7 CTRL
+	Description: Vaga 19
+	Types: ProductionSlot
+	Contexts: Player
+
+Production20: F8 CTRL
+	Description: Vaga 20
+	Types: ProductionSlot
+	Contexts: Player
+
+Production21: F9 CTRL
+	Description: Vaga 21
+	Types: ProductionSlot
+	Contexts: Player
+
+Production22: F10 CTRL
+	Description: Vaga 22
+	Types: ProductionSlot
+	Contexts: Player
+
+Production23: F11 CTRL
+	Description: Vaga 23
+	Types: ProductionSlot
+	Contexts: Player
+
+Production24: F12 CTRL
+	Description: Vaga 24
+	Types: ProductionSlot
+	Contexts: Player

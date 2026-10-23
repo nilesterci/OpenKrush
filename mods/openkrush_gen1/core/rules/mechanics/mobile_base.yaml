@@ -2,7 +2,7 @@
 	Inherits@1: ^CoreVehicle
 	Inherits@2: ^CoreHeavyVehicle
 	TooltipDescription:
-		Description: Mobile base
+		Description: Base móvel
 	Transforms:
 		Offset: -1,0
 	MustBeDestroyed:

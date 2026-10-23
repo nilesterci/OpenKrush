@@ -1,0 +1,94 @@
+MapScrollUp: UP
+	Description: Rolar para cima
+	Types: Viewport
+	Contexts: Player, Spectator, Editor
+
+MapScrollDown: DOWN
+	Description: Rolar para baixo
+	Types: Viewport
+	Contexts: Player, Spectator, Editor
+
+MapScrollLeft: LEFT
+	Description: Rolar para a esquerda
+	Types: Viewport
+	Contexts: Player, Spectator, Editor
+
+MapScrollRight: RIGHT
+	Description: Rolar para a direita
+	Types: Viewport
+	Contexts: Player, Spectator, Editor
+
+MapJumpToTopEdge: UP Alt
+	Description: Ir para a borda superior
+	Types: Viewport
+	Contexts: Player, Spectator, Editor
+
+MapJumpToBottomEdge: DOWN Alt
+	Description: Ir para a borda inferior
+	Types: Viewport
+	Contexts: Player, Spectator, Editor
+
+MapJumpToLeftEdge: LEFT Alt
+	Description: Ir para a borda esquerda
+	Types: Viewport
+	Contexts: Player, Spectator, Editor
+
+MapJumpToRightEdge: RIGHT Alt
+	Description: Ir para a borda direita
+	Types: Viewport
+	Contexts: Player, Spectator, Editor
+
+MapBookmarkSave01: Q Ctrl
+	Description: Gravar marcador 1
+	Types: Viewport
+	Contexts: Player, Spectator, Editor
+
+MapBookmarkRestore01: Q Alt
+	Description: Ir para o marcador 1
+	Types: Viewport
+	Contexts: Player, Spectator, Editor
+
+MapBookmarkSave02: W Ctrl
+	Description: Gravar marcador 2
+	Types: Viewport
+	Contexts: Player, Spectator, Editor
+
+MapBookmarkRestore02: W Alt
+	Description: Ir para o marcador 2
+	Types: Viewport
+	Contexts: Player, Spectator, Editor
+
+MapBookmarkSave03: E Ctrl
+	Description: Gravar marcador 3
+	Types: Viewport
+	Contexts: Player, Spectator, Editor
+
+MapBookmarkRestore03: E Alt
+	Description: Ir para o marcador 3
+	Types: Viewport
+	Contexts: Player, Spectator, Editor
+
+MapBookmarkSave04: R Ctrl
+	Description: Gravar marcador 4
+	Types: Viewport
+	Contexts: Player, Spectator, Editor
+
+MapBookmarkRestore04: R Alt
+	Description: Ir para o marcador 4
+	Types: Viewport
+	Contexts: Player, Spectator, Editor
+
+ZoomIn: RIGHTBRACKET
+	Description: Aproximar
+	Types: Viewport
+	Contexts: Player, Spectator, Editor
+
+ZoomOut: LEFTBRACKET
+	Description: Afastar
+	Types: Viewport
+	Contexts: Player, Spectator, Editor
+
+ResetZoom: PERIOD
+	Description: Zoom padrão
+	Types: Viewport
+	Contexts: Player, Spectator, Editor

@@ -8,4 +8,4 @@
 		RequiresCondition: !selfconstructing && !deconstructing
 	BaseBuilding:
 	TooltipDescription:
-		Description: Produces buildings
+		Description: Produz construções

@@ -1,0 +1,27 @@
+Container@SCRIPT_ERROR_PANEL:
+	Height: PARENT_BOTTOM
+	Width: PARENT_RIGHT
+	Children:
+		Label@DESCA:
+			X: 15
+			Y: 16
+			Width: PARENT_RIGHT - 30
+			Height: 20
+			Font: Bold
+			Align: Center
+			Text: O script do mapa encontrou um erro fatal
+		Label@DESCB:
+			X: 15
+			Y: 46
+			Width: PARENT_RIGHT - 30
+			Height: 20
+			Font: Regular
+			WordWrap: true
+			Text: Os detalhes do erro foram salvos no lua.log, na pasta de logs.
+		Label@DESCC:
+			X: 15
+			Y: 66
+			Width: PARENT_RIGHT - 30
+			Height: 20
+			Font: Regular
+			Text: Envie este arquivo ao autor do mapa para que ele corrija o problema.

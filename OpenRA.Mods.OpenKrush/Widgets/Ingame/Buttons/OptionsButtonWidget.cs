@@ -24,7 +24,7 @@ public class OptionsButtonWidget : SidebarButtonWidget
 	public OptionsButtonWidget(SidebarWidget sidebar)
 		: base(sidebar, "button")
 	{
-		this.TooltipTitle = "Options";
+		this.TooltipTitle = "Opções";
 	}
 
 	public override bool HandleKeyPress(KeyInput e)

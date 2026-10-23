@@ -24,7 +24,7 @@ public class SellButtonWidget : SidebarButtonWidget
 	public SellButtonWidget(SidebarWidget sidebar)
 		: base(sidebar, "button")
 	{
-		this.TooltipTitle = "Sell";
+		this.TooltipTitle = "Vender";
 	}
 
 	public override bool HandleKeyPress(KeyInput e)

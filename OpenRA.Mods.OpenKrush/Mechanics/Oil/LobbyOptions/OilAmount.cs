@@ -25,7 +25,7 @@ public class OilAmountInfo : TraitInfo, ILobbyOptions
 	public const string Id = "OilAmount";
 
 	public readonly int[] OilAmounts = { 25000, 50000, 75000, 100000, -1 };
-	public readonly string[] OilAmountNames = { "Scarce", "Normal", "Abundant", "Maximum", "Infinite" };
+	public readonly string[] OilAmountNames = { "Escasso", "Normal", "Abundante", "Máximo", "Infinito" };
 
 	IEnumerable<LobbyOption> ILobbyOptions.LobbyOptions(MapPreview mapPreview)
 	{
@@ -38,8 +38,8 @@ public class OilAmountInfo : TraitInfo, ILobbyOptions
 
 		yield return new(
 			OilAmountInfo.Id,
-			"Amount",
-			"Amount of oil every OilPatch contains.",
+			"Quantidade",
+			"Quantidade de petróleo em cada poço.",
 			true,
 			0,
 			new ReadOnlyDictionary<string, string>(values),

@@ -3,4 +3,4 @@
 	Dock:
 		RequiresCondition: !selfconstructing && !deconstructing
 	TooltipDescription:
-		Description: Processes oil
+		Description: Processa petróleo

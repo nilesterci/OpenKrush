@@ -1,0 +1,294 @@
+ControlGroupSelect01: NUMBER_1
+	Description: Selecionar grupo 1
+	Types: ControlGroups
+	Contexts: Player
+
+ControlGroupSelect02: NUMBER_2
+	Description: Selecionar grupo 2
+	Types: ControlGroups
+	Contexts: Player
+
+ControlGroupSelect03: NUMBER_3
+	Description: Selecionar grupo 3
+	Types: ControlGroups
+	Contexts: Player
+
+ControlGroupSelect04: NUMBER_4
+	Description: Selecionar grupo 4
+	Types: ControlGroups
+	Contexts: Player
+
+ControlGroupSelect05: NUMBER_5
+	Description: Selecionar grupo 5
+	Types: ControlGroups
+	Contexts: Player
+
+ControlGroupSelect06: NUMBER_6
+	Description: Selecionar grupo 6
+	Types: ControlGroups
+	Contexts: Player
+
+ControlGroupSelect07: NUMBER_7
+	Description: Selecionar grupo 7
+	Types: ControlGroups
+	Contexts: Player
+
+ControlGroupSelect08: NUMBER_8
+	Description: Selecionar grupo 8
+	Types: ControlGroups
+	Contexts: Player
+
+ControlGroupSelect09: NUMBER_9
+	Description: Selecionar grupo 9
+	Types: ControlGroups
+	Contexts: Player
+
+ControlGroupSelect10: NUMBER_0
+	Description: Selecionar grupo 0
+	Types: ControlGroups
+	Contexts: Player
+
+ControlGroupCreate01: NUMBER_1 Ctrl
+	Description: Criar grupo 1
+	Types: ControlGroups
+	Contexts: Player
+	Platform:
+		OSX: NUMBER_1 Meta
+
+ControlGroupCreate02: NUMBER_2 Ctrl
+	Description: Criar grupo 2
+	Types: ControlGroups
+	Contexts: Player
+	Platform:
+		OSX: NUMBER_2 Meta
+
+ControlGroupCreate03: NUMBER_3 Ctrl
+	Description: Criar grupo 3
+	Types: ControlGroups
+	Contexts: Player
+	Platform:
+		OSX: NUMBER_3 Meta
+
+ControlGroupCreate04: NUMBER_4 Ctrl
+	Description: Criar grupo 4
+	Types: ControlGroups
+	Contexts: Player
+	Platform:
+		OSX: NUMBER_4 Meta
+
+ControlGroupCreate05: NUMBER_5 Ctrl
+	Description: Criar grupo 5
+	Types: ControlGroups
+	Contexts: Player
+	Platform:
+		OSX: NUMBER_5 Meta
+
+ControlGroupCreate06: NUMBER_6 Ctrl
+	Description: Criar grupo 6
+	Types: ControlGroups
+	Contexts: Player
+	Platform:
+		OSX: NUMBER_6 Meta
+
+ControlGroupCreate07: NUMBER_7 Ctrl
+	Description: Criar grupo 7
+	Types: ControlGroups
+	Contexts: Player
+	Platform:
+		OSX: NUMBER_7 Meta
+
+ControlGroupCreate08: NUMBER_8 Ctrl
+	Description: Criar grupo 8
+	Types: ControlGroups
+	Contexts: Player
+	Platform:
+		OSX: NUMBER_8 Meta
+
+ControlGroupCreate09: NUMBER_9 Ctrl
+	Description: Criar grupo 9
+	Types: ControlGroups
+	Contexts: Player
+	Platform:
+		OSX: NUMBER_9 Meta
+
+ControlGroupCreate10: NUMBER_0 Ctrl
+	Description: Criar grupo 0
+	Types: ControlGroups
+	Contexts: Player
+	Platform:
+		OSX: NUMBER_0 Meta
+
+ControlGroupAddTo01: NUMBER_1 Ctrl, Shift
+	Description: Adicionar ao grupo 1
+	Types: ControlGroups
+	Contexts: Player
+	Platform:
+		OSX: NUMBER_1 Meta, Shift
+
+ControlGroupAddTo02: NUMBER_2 Ctrl, Shift
+	Description: Adicionar ao grupo 2
+	Types: ControlGroups
+	Contexts: Player
+	Platform:
+		OSX: NUMBER_2 Meta, Shift
+
+ControlGroupAddTo03: NUMBER_3 Ctrl, Shift
+	Description: Adicionar ao grupo 3
+	Types: ControlGroups
+	Contexts: Player
+	Platform:
+		OSX: NUMBER_3 Meta, Shift
+
+ControlGroupAddTo04: NUMBER_4 Ctrl, Shift
+	Description: Adicionar ao grupo 4
+	Types: ControlGroups
+	Contexts: Player
+	Platform:
+		OSX: NUMBER_4 Meta, Shift
+
+ControlGroupAddTo05: NUMBER_5 Ctrl, Shift
+	Description: Adicionar ao grupo 5
+	Types: ControlGroups
+	Contexts: Player
+	Platform:
+		OSX: NUMBER_5 Meta, Shift
+
+ControlGroupAddTo06: NUMBER_6 Ctrl, Shift
+	Description: Adicionar ao grupo 6
+	Types: ControlGroups
+	Contexts: Player
+	Platform:
+		OSX: NUMBER_6 Meta, Shift
+
+ControlGroupAddTo07: NUMBER_7 Ctrl, Shift
+	Description: Adicionar ao grupo 7
+	Types: ControlGroups
+	Contexts: Player
+	Platform:
+		OSX: NUMBER_7 Meta, Shift
+
+ControlGroupAddTo08: NUMBER_8 Ctrl, Shift
+	Description: Adicionar ao grupo 8
+	Types: ControlGroups
+	Contexts: Player
+	Platform:
+		OSX: NUMBER_8 Meta, Shift
+
+ControlGroupAddTo09: NUMBER_9 Ctrl, Shift
+	Description: Adicionar ao grupo 9
+	Types: ControlGroups
+	Contexts: Player
+	Platform:
+		OSX: NUMBER_9 Meta, Shift
+
+ControlGroupAddTo10: NUMBER_0 Ctrl, Shift
+	Description: Adicionar ao grupo 0
+	Types: ControlGroups
+	Contexts: Player
+	Platform:
+		OSX: NUMBER_0 Meta, Shift
+
+ControlGroupCombineWith01: NUMBER_1 Shift
+	Description: Juntar ao grupo 1
+	Types: ControlGroups
+	Contexts: Player
+
+ControlGroupCombineWith02: NUMBER_2 Shift
+	Description: Juntar ao grupo 2
+	Types: ControlGroups
+	Contexts: Player
+
+ControlGroupCombineWith03: NUMBER_3 Shift
+	Description: Juntar ao grupo 3
+	Types: ControlGroups
+	Contexts: Player
+
+ControlGroupCombineWith04: NUMBER_4 Shift
+	Description: Juntar ao grupo 4
+	Types: ControlGroups
+	Contexts: Player
+
+ControlGroupCombineWith05: NUMBER_5 Shift
+	Description: Juntar ao grupo 5
+	Types: ControlGroups
+	Contexts: Player
+
+ControlGroupCombineWith06: NUMBER_6 Shift
+	Description: Juntar ao grupo 6
+	Types: ControlGroups
+	Contexts: Player
+
+ControlGroupCombineWith07: NUMBER_7 Shift
+	Description: Juntar ao grupo 7
+	Types: ControlGroups
+	Contexts: Player
+
+ControlGroupCombineWith08: NUMBER_8 Shift
+	Description: Juntar ao grupo 8
+	Types: ControlGroups
+	Contexts: Player
+
+ControlGroupCombineWith09: NUMBER_9 Shift
+	Description: Juntar ao grupo 9
+	Types: ControlGroups
+	Contexts: Player
+
+ControlGroupCombineWith10: NUMBER_0 Shift
+	Description: Juntar ao grupo 0
+	Types: ControlGroups
+	Contexts: Player
+
+ControlGroupJumpTo01: NUMBER_1 Alt
+	Description: Ir para o grupo 1
+	Types: ControlGroups
+	Contexts: Player
+
+ControlGroupJumpTo02: NUMBER_2 Alt
+	Description: Ir para o grupo 2
+	Types: ControlGroups
+	Contexts: Player
+
+ControlGroupJumpTo03: NUMBER_3 Alt
+	Description: Ir para o grupo 3
+	Types: ControlGroups
+	Contexts: Player
+
+ControlGroupJumpTo04: NUMBER_4 Alt
+	Description: Ir para o grupo 4
+	Types: ControlGroups
+	Contexts: Player
+
+ControlGroupJumpTo05: NUMBER_5 Alt
+	Description: Ir para o grupo 5
+	Types: ControlGroups
+	Contexts: Player
+
+ControlGroupJumpTo06: NUMBER_6 Alt
+	Description: Ir para o grupo 6
+	Types: ControlGroups
+	Contexts: Player
+
+ControlGroupJumpTo07: NUMBER_7 Alt
+	Description: Ir para o grupo 7
+	Types: ControlGroups
+	Contexts: Player
+
+ControlGroupJumpTo08: NUMBER_8 Alt
+	Description: Ir para o grupo 8
+	Types: ControlGroups
+	Contexts: Player
+
+ControlGroupJumpTo09: NUMBER_9 Alt
+	Description: Ir para o grupo 9
+	Types: ControlGroups
+	Contexts: Player
+
+ControlGroupJumpTo10: NUMBER_0 Alt
+	Description: Ir para o grupo 0
+	Types: ControlGroups
+	Contexts: Player
+
+RemoveFromControlGroup:
+	Description: Remover do grupo
+	Types: ControlGroups
+	Contexts: Player

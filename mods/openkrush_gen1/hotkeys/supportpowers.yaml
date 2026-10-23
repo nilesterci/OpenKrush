@@ -1,0 +1,29 @@
+SupportPower01:
+	Description: Vaga 01
+	Types: SupportPower
+	Contexts: Player
+
+SupportPower02:
+	Description: Vaga 02
+	Types: SupportPower
+	Contexts: Player
+
+SupportPower03:
+	Description: Vaga 03
+	Types: SupportPower
+	Contexts: Player
+
+SupportPower04:
+	Description: Vaga 04
+	Types: SupportPower
+	Contexts: Player
+
+SupportPower05:
+	Description: Vaga 05
+	Types: SupportPower
+	Contexts: Player
+
+SupportPower06:
+	Description: Vaga 06
+	Types: SupportPower
+	Contexts: Player

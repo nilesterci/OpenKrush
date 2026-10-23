@@ -26,7 +26,7 @@ public enum TechBunkerContainsType
 }
 
 [UsedImplicitly]
-[Desc("What a TechBunker may contain.")]
+[Desc("O que um Tech Bunker pode conter.")]
 public class TechBunkerContainsInfo : TraitInfo, ILobbyOptions
 {
 	public const string Id = "TechBunkerContains";
@@ -36,14 +36,14 @@ public class TechBunkerContainsInfo : TraitInfo, ILobbyOptions
 	{
 		yield return new(
 			TechBunkerContainsInfo.Id,
-			"Contains",
-			"What a TechBunker may contain.",
+			"Conteúdo",
+			"O que um Tech Bunker pode conter.",
 			true,
 			0,
 			new ReadOnlyDictionary<string, string>(
 				new Dictionary<TechBunkerContainsType, string>
 				{
-					{ TechBunkerContainsType.Resources, "Resources" }, { TechBunkerContainsType.Units, "Units" }, { TechBunkerContainsType.Both, "Both" }
+					{ TechBunkerContainsType.Resources, "Recursos" }, { TechBunkerContainsType.Units, "Unidades" }, { TechBunkerContainsType.Both, "Ambos" }
 				}.ToDictionary(e => e.Key.ToString(), e => e.Value)
 			),
 			TechBunkerContainsInfo.Default.ToString(),

@@ -215,7 +215,7 @@ public class ProductionPaletteColumnWidget : Widget
 					IsFocused = () => this.Parent.Children.Count > 1 && this.IsFocused,
 					TooltipTitle = buildableItem.TraitInfoOrDefault<TooltipInfo>().Name,
 					TooltipText =
-						$"{(valued == null ? "" : $"Cost: {valued.Cost}\n")}Time: {buildTime}{(description != null ? $"\n{description.Description}" : null)}"
+						$"{(valued == null ? "" : $"Custo: {valued.Cost}\n")}Tempo: {buildTime}{(description != null ? $"\n{description.Description}" : null)}"
 				};
 
 				this.AddChild(button);

@@ -6,7 +6,7 @@ evolved_building_beastforge:
 	Tooltip:
 		Name: Beast Forge
 	TooltipDescription:
-		Description: Produces vehicles & beasts
+		Description: Produz veículos e feras
 	Valued:
 		Cost: 1500
 	Health:

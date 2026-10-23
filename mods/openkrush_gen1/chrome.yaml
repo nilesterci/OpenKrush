@@ -141,6 +141,12 @@ music:
 		next: 51, 0, 16, 16
 		prev: 68, 0, 16, 16
 		fastforward: 85, 0, 16, 16
+		random: 0, 34, 16, 16
+
+sidebar-bits:
+	Inherits: ^Glyphs
+	Regions:
+		indicator-muted: 0, 119, 26, 24
 
 progressbar-bg:
 	Inherits: dialog3

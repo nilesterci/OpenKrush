@@ -1,5 +1,5 @@
 General:
-	Name: Urban
+	Name: Urbano
 	Id: urban
 	EditorTemplateOrder: Terrain, Beach, Bridge, Decoration, Dirt Cliff, Dirt Cliff Extra, Dirt Cliff Ramp, Path, Path Extra, Street, Street Extra, Water Cliff, Water Cliff Extra, Water Cliff Ramp
 	SheetSize: 2048

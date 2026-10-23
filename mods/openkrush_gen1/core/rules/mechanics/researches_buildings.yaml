@@ -2,4 +2,4 @@
 	Researches:
 		RequiresCondition: !selfconstructing && !deconstructing
 	TooltipDescription:
-		Description: Researches buildings
+		Description: Pesquisa construções

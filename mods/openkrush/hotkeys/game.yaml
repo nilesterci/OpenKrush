@@ -1,19 +1,19 @@
 CycleHarvesters:
-	Description: Cycle Tankers
+	Description: Alternar Tankers
 	Types: World
 	Contexts: Player, Spectator
 
 Research: X
-	Description: Research mode
+	Description: Modo de pesquisa
 	Types: OrderGenerator
 	Contexts: Player
 
 Radar: V
-	Description: Toggle radar
+	Description: Ligar/desligar radar
 	Types: World
 	Contexts: Player
 
 Resources: N
-	Description: Toggle resources
+	Description: Mostrar/ocultar recursos
 	Types: World
 	Contexts: Player

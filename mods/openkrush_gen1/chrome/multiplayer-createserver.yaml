@@ -1,0 +1,261 @@
+Background@MULTIPLAYER_CREATESERVER_PANEL:
+	Logic: ServerCreationLogic
+	X: (WINDOW_RIGHT - WIDTH)/2
+	Y: (WINDOW_BOTTOM - HEIGHT)/2
+	Width: 530
+	Height: 315
+	Children:
+		Label@TITLE:
+			Y: 16
+			Width: PARENT_RIGHT
+			Height: 25
+			Text: Criar servidor
+			Align: Center
+			Font: Bold
+		Label@SERVER_NAME_LABEL:
+			Y: 45
+			Width: 105
+			Height: 25
+			Align: Right
+			Text: Nome do servidor:
+		TextField@SERVER_NAME:
+			X: 110
+			Y: 45
+			Width: 215
+			MaxLength: 50
+			Height: 25
+			Text: Meu servidor OpenRA
+		Label@PASSWORD_LABEL:
+			Y: 80
+			Width: 105
+			Height: 25
+			Align: Right
+			Text: Senha:
+		PasswordField@PASSWORD:
+			X: 110
+			Y: 80
+			Width: 145
+			MaxLength: 20
+			Height: 25
+		Label@AFTER_PASSWORD_LABEL:
+			X: 265
+			Y: 80
+			Width: 95
+			Height: 25
+			Align: Left
+			Text: (opcional)
+		Label@LISTEN_PORT_LABEL:
+			Y: 115
+			Width: 105
+			Height: 25
+			Align: Right
+			Text: Porta:
+		TextField@LISTEN_PORT:
+			X: 110
+			Y: 115
+			Width: 50
+			Height: 25
+			MaxLength: 5
+			Text: 1234
+			Type: Integer
+		Checkbox@ADVERTISE_CHECKBOX:
+			X: 180
+			Y: 117
+			Width: 150
+			Height: 20
+			Font: Regular
+			Text: Anunciar online
+		Label@NOTICES_HEADER_A:
+			X: 20
+			Y: 156
+			Height: 25
+			Align: Left
+			Font: Bold
+		Label@NOTICES_HEADER_B:
+			X: 20
+			Y: 156
+			Height: 25
+			Align: Left
+			Font: Bold
+		Label@NOTICES_HEADER_C:
+			X: 20
+			Y: 156
+			Height: 25
+			Align: Left
+			Font: Bold
+		Container@NOTICES_LAN:
+			X: 25
+			Y: 176
+			Width: PARENT_RIGHT
+			Height: PARENT_BOTTOM
+			Children:
+				Label@ADVERTISING:
+					Width: 305
+					Height: 25
+					Font: Tiny
+					Align: Left
+					Text: - A partida será anunciada só na rede local.
+				Label@FIREWALL:
+					Y: 12
+					Width: 305
+					Height: 25
+					Font: Tiny
+					Align: Left
+					Text: - Você precisa liberar as conexões no firewall manualmente.
+				Label@PORTFORWARD_A:
+					Y: 24
+					Width: 305
+					Height: 25
+					Font: Tiny
+					Align: Left
+					Text: - Jogadores podem conectar por IP direto pela internet se você
+				Label@PORTFORWARD_B:
+					X: 7
+					Y: 36
+					Width: 295
+					Height: 25
+					Font: Tiny
+					Align: Left
+					Text: configurar o redirecionamento de portas no roteador.
+		Container@NOTICES_NO_UPNP:
+			X: 25
+			Y: 176
+			Width: PARENT_RIGHT
+			Height: PARENT_BOTTOM
+			Children:
+				Label@ADVERTISING:
+					Width: 305
+					Height: 25
+					Font: Tiny
+					Align: Left
+					Text: - A partida será anunciada na rede local e na internet.
+				Label@FIREWALL:
+					Y: 12
+					Width: 305
+					Height: 25
+					Font: Tiny
+					Align: Left
+					Text: - Você precisa liberar as conexões no firewall manualmente.
+				Label@PORTFORWARD_A:
+					Y: 24
+					Width: 305
+					Height: 25
+					Font: Tiny
+					Align: Left
+					Text: - Você precisa configurar o roteador para liberar e redirecionar
+				Label@PORTFORWARD_B:
+					X: 7
+					Y: 36
+					Width: 295
+					Height: 25
+					Font: Tiny
+					Align: Left
+					Text: as conexões para o seu IP local e porta.
+				Label@SETTINGS_A:
+					Y: 48
+					Width: 305
+					Height: 25
+					Font: Tiny
+					Align: Left
+					Text: - Você pode ativar o UPnP/NAT-PMP (se o roteador suportar)
+				Label@SETTINGS_B:
+					X: 7
+					Y: 60
+					Width: 295
+					Height: 25
+					Font: Tiny
+					Align: Left
+					Text: na aba Avançado das configurações.
+		Container@NOTICES_UPNP:
+			X: 25
+			Y: 176
+			Width: PARENT_RIGHT
+			Height: PARENT_BOTTOM
+			Children:
+				Label@ADVERTISING:
+					Width: 305
+					Height: 25
+					Font: Tiny
+					Align: Left
+					Text: - A partida será anunciada na rede local e na internet.
+				Label@FIREWALL:
+					Y: 12
+					Width: 305
+					Height: 25
+					Font: Tiny
+					Align: Left
+					Text: - Você precisa liberar as conexões no firewall manualmente.
+				Label@PORTFORWARD_A:
+					Y: 24
+					Width: 305
+					Height: 25
+					Font: Tiny
+					Align: Left
+					Text: - O jogo vai configurar o redirecionamento de portas sozinho.
+				Label@SETTINGS_A:
+					Y: 36
+					Width: 305
+					Height: 25
+					Font: Tiny
+					Align: Left
+					Text: - Você pode desativar o UPnP/NAT-PMP nas configurações.
+		Background@MAP_BG:
+			X: PARENT_RIGHT - 194
+			Y: 45
+			Width: 174
+			Height: 174
+			Background: dialog3
+			Children:
+				MapPreview@MAP_PREVIEW:
+					X: 1
+					Y: 1
+					Width: PARENT_RIGHT - 2
+					Height: PARENT_RIGHT - 2
+		LabelWithTooltip@MAP_TITLE:
+			X: PARENT_RIGHT - 194
+			Y: 218
+			Width: 174
+			Height: 25
+			Font: Bold
+			Align: Center
+			TooltipContainer: TOOLTIP_CONTAINER
+			TooltipTemplate: SIMPLE_TOOLTIP
+		Label@MAP_TYPE:
+			X: PARENT_RIGHT - 194
+			Y: 233
+			Width: 174
+			Height: 25
+			Font: TinyBold
+			Align: Center
+			IgnoreMouseOver: true
+		Label@MAP_AUTHOR:
+			X: PARENT_RIGHT - 194
+			Y: 246
+			Width: 174
+			Height: 25
+			Font: Tiny
+			Align: Center
+		Button@MAP_BUTTON:
+			X: 20
+			Y: PARENT_BOTTOM - 45
+			Width: 120
+			Height: 25
+			Text: Trocar mapa
+			Font: Bold
+		Button@BACK_BUTTON:
+			X: PARENT_RIGHT - WIDTH - 20
+			Y: PARENT_BOTTOM - 45
+			Width: 120
+			Height: 25
+			Text: Voltar
+			Font: Bold
+			Key: escape
+		Button@CREATE_BUTTON:
+			Key: return
+			X: PARENT_RIGHT - 2*WIDTH - 30
+			Y: PARENT_BOTTOM - 45
+			Width: 120
+			Height: 25
+			Text: Criar
+			Font: Bold
+		TooltipContainer@TOOLTIP_CONTAINER:
