@@ -34,12 +34,12 @@ public class ResearchModeInfo : TraitInfo, ILobbyOptions
 	{
 		yield return new(
 			ResearchModeInfo.Id,
-			"Mode",
-			"Wether to research a full tech level or a single technology.",
+			"Modo",
+			"Pesquisar um nível tecnológico inteiro ou uma tecnologia por vez.",
 			true,
 			0,
 			new ReadOnlyDictionary<string, string>(
-				new Dictionary<ResearchModeType, string> { { ResearchModeType.FullLevel, "Full Level" }, { ResearchModeType.SingleTech, "Single Tech" } }
+				new Dictionary<ResearchModeType, string> { { ResearchModeType.FullLevel, "Nível inteiro" }, { ResearchModeType.SingleTech, "Uma tecnologia" } }
 					.ToDictionary(e => e.Key.ToString(), e => e.Value)
 			),
 			ResearchModeInfo.Default.ToString(),

@@ -33,8 +33,8 @@ public class OilBurnInfo : TraitInfo, ILobbyOptions
 
 		yield return new(
 			OilBurnInfo.Id,
-			"Burn",
-			"Percent amount of oil to burn when ignited.",
+			"Queima",
+			"Porcentagem de petróleo que queima quando o poço pega fogo.",
 			true,
 			0,
 			new ReadOnlyDictionary<string, string>(values),

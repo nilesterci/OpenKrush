@@ -1,6 +1,6 @@
 Player:
 	ModularBot:
-		Name: Computer
+		Name: Computador
 		Type: computer
 	GrantConditionOnBotOwner:
 		Condition: enable-ai

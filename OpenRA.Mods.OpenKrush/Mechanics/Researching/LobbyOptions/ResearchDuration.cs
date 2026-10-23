@@ -32,8 +32,8 @@ public class ResearchDurationInfo : TraitInfo, ILobbyOptions
 
 		yield return new(
 			ResearchDurationInfo.Id,
-			"Duration",
-			"Research duration.",
+			"Duração",
+			"Duração da pesquisa.",
 			true,
 			0,
 			new ReadOnlyDictionary<string, string>(values),

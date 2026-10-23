@@ -44,21 +44,21 @@ Container@MAINMENU:
 							Y: 60
 							Width: 140
 							Height: 30
-							Text: Singleplayer
+							Text: Um jogador
 							Font: Bold
 						Button@MULTIPLAYER_BUTTON:
 							X: PARENT_RIGHT / 2 - WIDTH / 2
 							Y: 100
 							Width: 140
 							Height: 30
-							Text: Multiplayer
+							Text: Multijogador
 							Font: Bold
 						Button@SETTINGS_BUTTON:
 							X: PARENT_RIGHT / 2 - WIDTH / 2
 							Y: 140
 							Width: 140
 							Height: 30
-							Text: Settings
+							Text: Configurações
 							Font: Bold
 						Button@EXTRAS_BUTTON:
 							X: PARENT_RIGHT / 2 - WIDTH / 2
@@ -72,14 +72,14 @@ Container@MAINMENU:
 							Y: 220
 							Width: 140
 							Height: 30
-							Text: Manage Content
+							Text: Conteúdo
 							Font: Bold
 						Button@QUIT_BUTTON:
 							X: PARENT_RIGHT / 2 - WIDTH / 2
 							Y: 260
 							Width: 140
 							Height: 30
-							Text: Quit
+							Text: Sair
 							Font: Bold
 				Background@SINGLEPLAYER_MENU:
 					Width: PARENT_RIGHT
@@ -90,7 +90,7 @@ Container@MAINMENU:
 							Y: 20
 							Width: 200
 							Height: 30
-							Text: Singleplayer
+							Text: Um jogador
 							Align: Center
 							Font: Bold
 						Button@SKIRMISH_BUTTON:
@@ -98,21 +98,21 @@ Container@MAINMENU:
 							Y: 60
 							Width: 140
 							Height: 30
-							Text: Skirmish
+							Text: Escaramuça
 							Font: Bold
 						Button@MISSIONS_BUTTON:
 							X: PARENT_RIGHT / 2 - WIDTH / 2
 							Y: 100
 							Width: 140
 							Height: 30
-							Text: Missions
+							Text: Missões
 							Font: Bold
 						Button@LOAD_BUTTON:
 							X: PARENT_RIGHT / 2 - WIDTH / 2
 							Y: 140
 							Width: 140
 							Height: 30
-							Text: Load
+							Text: Carregar
 							Font: Bold
 						Button@BACK_BUTTON:
 							X: PARENT_RIGHT / 2 - WIDTH / 2
@@ -120,7 +120,7 @@ Container@MAINMENU:
 							Y: 260
 							Width: 140
 							Height: 30
-							Text: Back
+							Text: Voltar
 							Font: Bold
 				Background@EXTRAS_MENU:
 					Width: PARENT_RIGHT
@@ -146,28 +146,28 @@ Container@MAINMENU:
 							Y: 100
 							Width: 140
 							Height: 30
-							Text: Music
+							Text: Música
 							Font: Bold
 						Button@MAP_EDITOR_BUTTON:
 							X: PARENT_RIGHT / 2 - WIDTH / 2
 							Y: 140
 							Width: 140
 							Height: 30
-							Text: Map Editor
+							Text: Editor de mapas
 							Font: Bold
 						Button@ASSETBROWSER_BUTTON:
 							X: PARENT_RIGHT / 2 - WIDTH / 2
 							Y: 180
 							Width: 140
 							Height: 30
-							Text: Asset Browser
+							Text: Navegador de recursos
 							Font: Bold
 						Button@CREDITS_BUTTON:
 							X: PARENT_RIGHT / 2 - WIDTH / 2
 							Y: 220
 							Width: 140
 							Height: 30
-							Text: Credits
+							Text: Créditos
 							Font: Bold
 						Button@BACK_BUTTON:
 							X: PARENT_RIGHT / 2 - WIDTH / 2
@@ -175,7 +175,7 @@ Container@MAINMENU:
 							Y: 260
 							Width: 140
 							Height: 30
-							Text: Back
+							Text: Voltar
 							Font: Bold
 				Background@MAP_EDITOR_MENU:
 					Width: PARENT_RIGHT
@@ -186,7 +186,7 @@ Container@MAINMENU:
 							Y: 20
 							Width: 200
 							Height: 30
-							Text: Map Editor
+							Text: Editor de mapas
 							Align: Center
 							Font: Bold
 						Button@NEW_MAP_BUTTON:
@@ -194,14 +194,14 @@ Container@MAINMENU:
 							Y: 60
 							Width: 140
 							Height: 30
-							Text: New Map
+							Text: Novo mapa
 							Font: Bold
 						Button@LOAD_MAP_BUTTON:
 							X: PARENT_RIGHT / 2 - WIDTH / 2
 							Y: 100
 							Width: 140
 							Height: 30
-							Text: Load Map
+							Text: Carregar mapa
 							Font: Bold
 						Button@BACK_BUTTON:
 							X: PARENT_RIGHT / 2 - WIDTH / 2
@@ -209,7 +209,7 @@ Container@MAINMENU:
 							Y: 260
 							Width: 140
 							Height: 30
-							Text: Back
+							Text: Voltar
 							Font: Bold
 		Container@PERFORMANCE_INFO:
 			Logic: PerfDebugLogic
@@ -257,14 +257,14 @@ Container@MAINMENU:
 					Height: 25
 					Align: Center
 					Shadow: true
-					Text: You are running an outdated version of OpenKrush.
+					Text: Você está usando uma versão desatualizada do OpenKrush.
 				Label@B:
 					Y: 20
 					Width: PARENT_RIGHT
 					Height: 25
 					Align: Center
 					Shadow: true
-					Text: Download the latest version from https://github.com/IceReaper/OpenKrush
+					Text: Baixe a versão mais recente em https://github.com/IceReaper/OpenKrush
 		Container@PLAYER_PROFILE_CONTAINER:
 			X: 25
 			Y: 25

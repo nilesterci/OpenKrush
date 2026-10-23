@@ -4,7 +4,7 @@ survivors_aircraft_bomber:
 	Tooltip:
 		Name: Bomber
 	TooltipDescription:
-		Description: Drops a present
+		Description: Solta um presentinho
 	Health:
 		HP: 1500
 	Aircraft:

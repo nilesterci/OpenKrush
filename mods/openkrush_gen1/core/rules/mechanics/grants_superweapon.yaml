@@ -8,4 +8,4 @@
 		Cursor: attack
 		RequiresCondition: !selfconstructing && !deconstructing
 	TooltipDescription:
-		Description: Grants superweapon
+		Description: Libera superarma

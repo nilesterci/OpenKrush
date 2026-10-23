@@ -21,7 +21,7 @@ public sealed class BomberButtonWidget : SidebarButtonWidget
 	public BomberButtonWidget(SidebarWidget sidebar)
 		: base(sidebar, "button")
 	{
-		this.TooltipTitle = "Aircrafts";
+		this.TooltipTitle = "Aeronaves";
 	}
 
 	public override bool HandleKeyPress(KeyInput e)

@@ -1,39 +1,39 @@
 ProductionInfantry: T
-	Description: Infantry
+	Description: Infantaria
 	Types: ProductionSlot
 	Contexts: Player
 
 ProductionVehicles: Y
-	Description: Vehicles
+	Description: Veículos
 	Types: ProductionSlot
 	Contexts: Player
 
 ProductionConstructibles: 
-	Description: Constructibles
+	Description: Construíveis
 	Types: ProductionSlot
 	Contexts: Player
 
 ProductionAircrafts: U
-	Description: Aircrafts
+	Description: Aeronaves
 	Types: ProductionSlot
 	Contexts: Player
 
 ProductionBuildings: E
-	Description: Buildings
+	Description: Construções
 	Types: ProductionSlot
 	Contexts: Player
 
 ProductionTowers: R
-	Description: Towers
+	Description: Torres
 	Types: ProductionSlot
 	Contexts: Player
 
 ProductionWalls: R ALT
-	Description: Walls
+	Description: Muros
 	Types: ProductionSlot
 	Contexts: Player
 
 Superweapons: U
-	Description: Superweapons
+	Description: Superarmas
 	Types: ProductionSlot
 	Contexts: Player

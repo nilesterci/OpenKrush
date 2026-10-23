@@ -29,7 +29,7 @@ public enum TechBunkerAmountType
 }
 
 [UsedImplicitly(ImplicitUseTargetFlags.WithMembers)]
-[Desc("How many TechBunkers should be spawned on the map.")]
+[Desc("Quantos Tech Bunkers aparecem no mapa.")]
 public class TechBunkerAmountInfo : TraitInfo, ILobbyOptions
 {
 	public const string Id = "TechBunkerAmount";
@@ -42,17 +42,17 @@ public class TechBunkerAmountInfo : TraitInfo, ILobbyOptions
 	{
 		yield return new(
 			TechBunkerAmountInfo.Id,
-			"Amount",
-			"How many TechBunkers should be spawned on the map.",
+			"Quantidade",
+			"Quantos Tech Bunkers aparecem no mapa.",
 			true,
 			0,
 			new ReadOnlyDictionary<string, string>(
 				new Dictionary<TechBunkerAmountType, string>
 				{
-					{ TechBunkerAmountType.None, "None" },
-					{ TechBunkerAmountType.One, "1 per map" },
-					{ TechBunkerAmountType.OnePerTwoPlayers, "1 per 2 players" },
-					{ TechBunkerAmountType.All, "All" }
+					{ TechBunkerAmountType.None, "Nenhum" },
+					{ TechBunkerAmountType.One, "1 por mapa" },
+					{ TechBunkerAmountType.OnePerTwoPlayers, "1 a cada 2 jogadores" },
+					{ TechBunkerAmountType.All, "Todos" }
 				}.ToDictionary(e => e.Key.ToString(), e => e.Value)
 			),
 			TechBunkerAmountInfo.Default.ToString(),

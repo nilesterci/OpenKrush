@@ -1,0 +1,134 @@
+CycleBase: H
+	Description: Ir para a base
+	Types: World
+	Contexts: Player, Spectator
+
+ToLastEvent: SPACE
+	Description: Ir para o último alerta do radar
+	Types: World
+	Contexts: Player, Spectator
+
+ToSelection: HOME
+	Description: Ir para a seleção
+	Types: World
+	Contexts: Player, Spectator
+
+SelectAllUnits: Q
+	Description: Selecionar todas as unidades de combate
+	Types: World
+	Contexts: Player, Spectator
+
+SelectUnitsByType: W
+	Description: Selecionar unidades do mesmo tipo
+	Types: World
+	Contexts: Player, Spectator
+
+CycleHarvesters: N
+	Description: Alternar coletores
+	Types: World
+	Contexts: Player, Spectator
+
+Pause: PAUSE
+	Description: Pausar / continuar
+	Types: World
+	Contexts: Player, Spectator
+
+Sell: Z
+	Description: Modo venda
+	Types: OrderGenerator
+	Contexts: Player
+
+Repair: C
+	Description: Modo conserto
+	Types: OrderGenerator
+	Contexts: Player
+
+PlaceBeacon: B
+	Description: Colocar sinalizador
+	Types: OrderGenerator
+	Contexts: Player
+
+CycleStatusBars: COMMA
+	Description: Alternar barras de status
+	Types: World
+	Contexts: Player, Spectator
+
+ToggleMute: M
+	Description: Silenciar/reativar áudio
+	Types: World
+	Contexts: Menu, Player, Spectator
+
+TogglePlayerStanceColor: COMMA Ctrl
+	Description: Alternar cores por relação
+	Types: World
+	Contexts: Player, Spectator
+
+TakeScreenshot: P Ctrl
+	Description: Capturar tela
+	Types: World
+	Contexts: Menu, Player, Spectator
+
+AttackMove: A
+	Description: Mover atacando
+	Types: Unit
+	Contexts: Player
+
+Stop: S
+	Description: Parar
+	Types: Unit
+	Contexts: Player
+
+Scatter: X Ctrl
+	Description: Dispersar
+	Types: Unit
+	Contexts: Player
+
+Deploy: F
+	Description: Posicionar
+	Types: Unit
+	Contexts: Player
+
+Guard: D
+	Description: Escoltar
+	Types: Unit
+	Contexts: Player
+
+StanceAttackAnything: A Alt
+	Description: Atacar qualquer coisa
+	Types: Stance
+	Contexts: Player
+
+StanceDefend: S Alt
+	Description: Defender
+	Types: Stance
+	Contexts: Player
+
+StanceReturnFire: D Alt
+	Description: Revidar
+	Types: Stance
+	Contexts: Player
+
+StanceHoldFire: F Alt
+	Description: Cessar fogo
+	Types: Stance
+	Contexts: Player
+
+StopMusic: AUDIOSTOP
+	Description: Parar
+	Types: Music
+	Contexts: Menu, Player, Spectator
+
+PauseMusic: AUDIOPLAY
+	Description: Pausar ou continuar
+	Types: Music
+	Contexts: Menu, Player, Spectator
+
+PrevMusic: AUDIOPREV
+	Description: Anterior
+	Types: Music
+	Contexts: Menu, Player, Spectator
+
+NextMusic: AUDIONEXT
+	Description: Próxima
+	Types: Music
+	Contexts: Menu, Player, Spectator

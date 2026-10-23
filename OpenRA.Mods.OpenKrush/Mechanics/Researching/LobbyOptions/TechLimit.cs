@@ -46,8 +46,8 @@ public class TechLimitInfo : TraitInfo, ILobbyOptions
 
 		yield return new(
 			TechLimitInfo.Id,
-			"Limit",
-			"Maximum tech level.",
+			"Limite",
+			"Nível tecnológico máximo.",
 			true,
 			0,
 			new ReadOnlyDictionary<string, string>(values),

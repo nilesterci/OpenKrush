@@ -4,12 +4,12 @@ World:
 		InternalName: evolved
 	StartingUnits@evolved0:
 		Class: none
-		ClassName: Mobile Base
+		ClassName: Base móvel
 		BaseActor: evolved_vehicle_clanhallwagon
 		Factions: evolved
 	StartingUnits@evolved1:
 		Class: support
-		ClassName: With Derrick
+		ClassName: Com Derrick
 		BaseActor: evolved_vehicle_clanhallwagon
 		SupportActors: evolved_vehicle_derrick
 		InnerSupportRadius: 4
@@ -17,7 +17,7 @@ World:
 		Factions: evolved
 	StartingUnits@evolved2:
 		Class: light
-		ClassName: Light support
+		ClassName: Apoio leve
 		BaseActor: evolved_vehicle_clanhallwagon
 		SupportActors: evolved_vehicle_derrick, evolved_infantry_berserker, evolved_infantry_berserker, evolved_infantry_berserker, evolved_infantry_berserker, evolved_infantry_berserker
 		InnerSupportRadius: 4
@@ -25,7 +25,7 @@ World:
 		Factions: evolved
 	StartingUnits@evolved3:
 		Class: heavy
-		ClassName: Heavy support
+		ClassName: Apoio pesado
 		BaseActor: evolved_vehicle_clanhallwagon
 		SupportActors: evolved_vehicle_derrick, evolved_vehicle_direwolf, evolved_vehicle_bikeandsidecar, evolved_vehicle_monstertruck, evolved_vehicle_giantscorpion
 		InnerSupportRadius: 4
@@ -33,7 +33,7 @@ World:
 		Factions: evolved
 	StartingUnits@evolved4:
 		Class: eco
-		ClassName: Eco support
+		ClassName: Apoio econômico
 		BaseActor: evolved_vehicle_clanhallwagon
 		SupportActors: evolved_vehicle_derrick, evolved_vehicle_derrick, evolved_vehicle_oiltanker, evolved_vehicle_oiltanker
 		InnerSupportRadius: 4

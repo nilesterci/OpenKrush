@@ -28,7 +28,7 @@ public class ResearchButtonWidget : SidebarButtonWidget
 	public ResearchButtonWidget(SidebarWidget sidebar)
 		: base(sidebar, "button")
 	{
-		this.TooltipTitle = "Research";
+		this.TooltipTitle = "Pesquisar";
 	}
 
 	public override bool HandleKeyPress(KeyInput e)

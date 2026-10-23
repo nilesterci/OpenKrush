@@ -25,7 +25,7 @@ public enum TechBunkerUsesType
 }
 
 [UsedImplicitly]
-[Desc("How many times a TechBunker can be used.")]
+[Desc("Quantas vezes um Tech Bunker pode ser usado.")]
 public class TechBunkerUsesInfo : TraitInfo, ILobbyOptions
 {
 	public const string Id = "TechBunkerUses";
@@ -35,12 +35,12 @@ public class TechBunkerUsesInfo : TraitInfo, ILobbyOptions
 	{
 		yield return new(
 			TechBunkerUsesInfo.Id,
-			"Uses",
-			"How many times a TechBunker can be used.",
+			"Usos",
+			"Quantas vezes um Tech Bunker pode ser usado.",
 			true,
 			0,
 			new ReadOnlyDictionary<string, string>(
-				new Dictionary<TechBunkerUsesType, string> { { TechBunkerUsesType.Once, "Once" }, { TechBunkerUsesType.Infinitely, "Infinitely" } }
+				new Dictionary<TechBunkerUsesType, string> { { TechBunkerUsesType.Once, "Uma vez" }, { TechBunkerUsesType.Infinitely, "Ilimitado" } }
 					.ToDictionary(e => e.Key.ToString(), e => e.Value)
 			),
 			TechBunkerUsesInfo.Default.ToString(),

@@ -45,11 +45,11 @@ public sealed class SidebarWidget : Widget
 
 		ChromeMetrics.TryGet($"ButtonArea-{this.IngameUi.World.LocalPlayer.Faction.InternalName}", out this.ButtonArea);
 
-		this.AddChild(new ProductionCategoryButtonWidget(this, 0, new[] { "infantry" }, "Infantry"));
-		this.AddChild(new ProductionCategoryButtonWidget(this, 1, new[] { "vehicle", "beast" }, "Vehicles"));
-		this.AddChild(new ProductionCategoryButtonWidget(this, 2, new[] { "building" }, "Buildings"));
-		this.AddChild(new ProductionCategoryButtonWidget(this, 3, new[] { "tower" }, "Towers"));
-		this.AddChild(new ProductionCategoryButtonWidget(this, 4, new[] { "wall" }, "Walls"));
+		this.AddChild(new ProductionCategoryButtonWidget(this, 0, new[] { "infantry" }, "Infantaria"));
+		this.AddChild(new ProductionCategoryButtonWidget(this, 1, new[] { "vehicle", "beast" }, "Veículos"));
+		this.AddChild(new ProductionCategoryButtonWidget(this, 2, new[] { "building" }, "Construções"));
+		this.AddChild(new ProductionCategoryButtonWidget(this, 3, new[] { "tower" }, "Torres"));
+		this.AddChild(new ProductionCategoryButtonWidget(this, 4, new[] { "wall" }, "Muros"));
 
 		this.AddChild(this.bomber = new(this));
 

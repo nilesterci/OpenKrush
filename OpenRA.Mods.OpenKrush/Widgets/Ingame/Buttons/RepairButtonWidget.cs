@@ -24,7 +24,7 @@ public class RepairButtonWidget : SidebarButtonWidget
 	public RepairButtonWidget(SidebarWidget sidebar)
 		: base(sidebar, "button")
 	{
-		this.TooltipTitle = "Repair";
+		this.TooltipTitle = "Consertar";
 	}
 
 	public override bool HandleKeyPress(KeyInput e)

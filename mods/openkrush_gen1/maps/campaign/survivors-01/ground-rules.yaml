@@ -1,0 +1,223 @@
+# Chão gerado a partir dos pixels originais do KKnD; os blocos do tileset só definem o terreno.
+World:
+	PaletteFromPng@mapground:
+		Name: mapground
+		Filename: mapground-palette.png
+
+^MapGround:
+	WithSpriteBody:
+	BodyOrientation:
+	QuantizeFacingsFromSequence:
+	Immobile:
+		OccupiesSpace: false
+	AlwaysVisible:
+
+mapground_0_0:
+	Inherits: ^MapGround
+	RenderSprites:
+		Image: mapground_0_0
+		Palette: mapground
+
+mapground_1_0:
+	Inherits: ^MapGround
+	RenderSprites:
+		Image: mapground_1_0
+		Palette: mapground
+
+mapground_2_0:
+	Inherits: ^MapGround
+	RenderSprites:
+		Image: mapground_2_0
+		Palette: mapground
+
+mapground_3_0:
+	Inherits: ^MapGround
+	RenderSprites:
+		Image: mapground_3_0
+		Palette: mapground
+
+mapground_4_0:
+	Inherits: ^MapGround
+	RenderSprites:
+		Image: mapground_4_0
+		Palette: mapground
+
+mapground_5_0:
+	Inherits: ^MapGround
+	RenderSprites:
+		Image: mapground_5_0
+		Palette: mapground
+
+mapground_6_0:
+	Inherits: ^MapGround
+	RenderSprites:
+		Image: mapground_6_0
+		Palette: mapground
+
+mapground_0_1:
+	Inherits: ^MapGround
+	RenderSprites:
+		Image: mapground_0_1
+		Palette: mapground
+
+mapground_1_1:
+	Inherits: ^MapGround
+	RenderSprites:
+		Image: mapground_1_1
+		Palette: mapground
+
+mapground_2_1:
+	Inherits: ^MapGround
+	RenderSprites:
+		Image: mapground_2_1
+		Palette: mapground
+
+mapground_3_1:
+	Inherits: ^MapGround
+	RenderSprites:
+		Image: mapground_3_1
+		Palette: mapground
+
+mapground_4_1:
+	Inherits: ^MapGround
+	RenderSprites:
+		Image: mapground_4_1
+		Palette: mapground
+
+mapground_5_1:
+	Inherits: ^MapGround
+	RenderSprites:
+		Image: mapground_5_1
+		Palette: mapground
+
+mapground_6_1:
+	Inherits: ^MapGround
+	RenderSprites:
+		Image: mapground_6_1
+		Palette: mapground
+
+mapground_0_2:
+	Inherits: ^MapGround
+	RenderSprites:
+		Image: mapground_0_2
+		Palette: mapground
+
+mapground_1_2:
+	Inherits: ^MapGround
+	RenderSprites:
+		Image: mapground_1_2
+		Palette: mapground
+
+mapground_2_2:
+	Inherits: ^MapGround
+	RenderSprites:
+		Image: mapground_2_2
+		Palette: mapground
+
+mapground_3_2:
+	Inherits: ^MapGround
+	RenderSprites:
+		Image: mapground_3_2
+		Palette: mapground
+
+mapground_4_2:
+	Inherits: ^MapGround
+	RenderSprites:
+		Image: mapground_4_2
+		Palette: mapground
+
+mapground_5_2:
+	Inherits: ^MapGround
+	RenderSprites:
+		Image: mapground_5_2
+		Palette: mapground
+
+mapground_6_2:
+	Inherits: ^MapGround
+	RenderSprites:
+		Image: mapground_6_2
+		Palette: mapground
+
+mapground_0_3:
+	Inherits: ^MapGround
+	RenderSprites:
+		Image: mapground_0_3
+		Palette: mapground
+
+mapground_1_3:
+	Inherits: ^MapGround
+	RenderSprites:
+		Image: mapground_1_3
+		Palette: mapground
+
+mapground_2_3:
+	Inherits: ^MapGround
+	RenderSprites:
+		Image: mapground_2_3
+		Palette: mapground
+
+mapground_3_3:
+	Inherits: ^MapGround
+	RenderSprites:
+		Image: mapground_3_3
+		Palette: mapground
+
+mapground_4_3:
+	Inherits: ^MapGround
+	RenderSprites:
+		Image: mapground_4_3
+		Palette: mapground
+
+mapground_5_3:
+	Inherits: ^MapGround
+	RenderSprites:
+		Image: mapground_5_3
+		Palette: mapground
+
+mapground_6_3:
+	Inherits: ^MapGround
+	RenderSprites:
+		Image: mapground_6_3
+		Palette: mapground
+
+mapground_0_4:
+	Inherits: ^MapGround
+	RenderSprites:
+		Image: mapground_0_4
+		Palette: mapground
+
+mapground_1_4:
+	Inherits: ^MapGround
+	RenderSprites:
+		Image: mapground_1_4
+		Palette: mapground
+
+mapground_2_4:
+	Inherits: ^MapGround
+	RenderSprites:
+		Image: mapground_2_4
+		Palette: mapground
+
+mapground_3_4:
+	Inherits: ^MapGround
+	RenderSprites:
+		Image: mapground_3_4
+		Palette: mapground
+
+mapground_4_4:
+	Inherits: ^MapGround
+	RenderSprites:
+		Image: mapground_4_4
+		Palette: mapground
+
+mapground_5_4:
+	Inherits: ^MapGround
+	RenderSprites:
+		Image: mapground_5_4
+		Palette: mapground
+
+mapground_6_4:
+	Inherits: ^MapGround
+	RenderSprites:
+		Image: mapground_6_4
+		Palette: mapground

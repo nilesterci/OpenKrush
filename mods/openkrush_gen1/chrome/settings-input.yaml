@@ -1,0 +1,269 @@
+Container@INPUT_PANEL:
+	Logic: InputSettingsLogic
+	Width: PARENT_RIGHT
+	Height: PARENT_BOTTOM
+	Children:
+		ScrollPanel@SETTINGS_SCROLLPANEL:
+			Width: PARENT_RIGHT
+			Height: PARENT_BOTTOM
+			CollapseHiddenChildren: True
+			TopBottomSpacing: 5
+			ItemSpacing: 10
+			Children:
+				Background@SECTION_HEADER:
+					X: 5
+					Width: PARENT_RIGHT - 24 - 10
+					Height: 13
+					Background: separator
+					ClickThrough: True
+					Children:
+						Label@LABEL:
+							Width: PARENT_RIGHT
+							Height: PARENT_BOTTOM
+							Font: TinyBold
+							Align: Center
+							Text: Controles
+				Container@ROW:
+					Width: PARENT_RIGHT - 24
+					Height: 50
+					Children:
+						Container@MOUSE_CONTROL_CONTAINER:
+							X: 10
+							Width: PARENT_RIGHT / 2 - 20
+							Children:
+								Label@MOUSE_CONTROL_LABEL:
+									Width: PARENT_RIGHT
+									Height: 20
+									Font: Regular
+									Text: Esquema de controle:
+								DropDownButton@MOUSE_CONTROL_DROPDOWN:
+									Y: 25
+									Width: PARENT_RIGHT
+									Height: 25
+									Font: Regular
+						Container@ZOOM_MODIFIER_CONTAINER:
+							X: PARENT_RIGHT / 2 + 10
+							Width: PARENT_RIGHT / 2 - 20
+							Children:
+								Label@ZOOM_MODIFIER_LABEL:
+									Width: PARENT_RIGHT
+									Height: 20
+									Font: Regular
+									Text: Tecla de zoom:
+								DropDownButton@ZOOM_MODIFIER:
+									Y: 25
+									Width: PARENT_RIGHT
+									Height: 25
+									Font: Regular
+						Container@MOUSE_CONTROL_DESC_CLASSIC:
+							X: 10
+							Y: 55
+							Width: PARENT_RIGHT
+							Children:
+								LabelWithHighlight@DESC_SELECTION:
+									Height: 16
+									Font: Small
+									Text: - Selecione unidades com o botão {esquerdo} do mouse
+								LabelWithHighlight@DESC_COMMANDS:
+									Y: 17
+									Height: 16
+									Font: Small
+									Text: - Comande unidades com o botão {esquerdo} do mouse
+								LabelWithHighlight@DESC_BUILDIGS:
+									Y: 34
+									Height: 16
+									Font: Small
+									Text: - Posicione construções com o botão {esquerdo} do mouse
+								LabelWithHighlight@DESC_SUPPORT:
+									Y: 51
+									Height: 16
+									Font: Small
+									Text: - Mire os poderes especiais com o botão {esquerdo} do mouse
+								LabelWithHighlight@DESC_ZOOM:
+									Y: 68
+									Height: 16
+									Font: Small
+									Text: - Aproxime a câmera com a {roda do mouse}
+								LabelWithHighlight@DESC_ZOOM_MODIFIER:
+									Y: 68
+									Height: 16
+									Font: Small
+									Text: - Aproxime a câmera com {MODIFICADOR + roda do mouse}
+								LabelWithHighlight@DESC_SCROLL_RIGHT:
+									Y: 85
+									Height: 16
+									Font: Small
+									Text: - Mova a câmera com o botão {direito} do mouse
+								LabelWithHighlight@DESC_SCROLL_MIDDLE:
+									Y: 85
+									Height: 16
+									Font: Small
+									Text: - Mova a câmera com o botão {do meio} do mouse
+								Label@DESC_EDGESCROLL:
+									X: 9
+									Y: 102
+									Height: 16
+									Font: Small
+									Text: ou levando o cursor até a borda da tela
+						Container@MOUSE_CONTROL_DESC_MODERN:
+							X: 10
+							Y: 55
+							Width: PARENT_RIGHT / 2 - 20
+							Children:
+								LabelWithHighlight@DESC_SELECTION:
+									Height: 16
+									Font: Small
+									Text: - Selecione unidades com o botão {esquerdo} do mouse
+								LabelWithHighlight@DESC_COMMANDS:
+									Y: 17
+									Height: 16
+									Font: Small
+									Text: - Comande unidades com o botão {direito} do mouse
+								LabelWithHighlight@DESC_BUILDIGS:
+									Y: 34
+									Height: 16
+									Font: Small
+									Text: - Posicione construções com o botão {esquerdo} do mouse
+								LabelWithHighlight@DESC_SUPPORT:
+									Y: 51
+									Height: 16
+									Font: Small
+									Text: - Mire os poderes especiais com o botão {esquerdo} do mouse
+								LabelWithHighlight@DESC_ZOOM:
+									Y: 68
+									Height: 16
+									Font: Small
+									Text: - Aproxime a câmera com a {roda do mouse}
+								LabelWithHighlight@DESC_ZOOM_MODIFIER:
+									Y: 68
+									Height: 16
+									Font: Small
+									Text: - Aproxime a câmera com {MODIFICADOR + roda do mouse}
+								LabelWithHighlight@DESC_SCROLL_RIGHT:
+									Y: 85
+									Height: 16
+									Font: Small
+									Text: - Mova a câmera com o botão {direito} do mouse
+								LabelWithHighlight@DESC_SCROLL_MIDDLE:
+									Y: 85
+									Height: 16
+									Font: Small
+									Text: - Mova a câmera com o botão {do meio} do mouse
+								Label@DESC_EDGESCROLL:
+									X: 9
+									Y: 102
+									Height: 16
+									Font: Small
+									Text: ou levando o cursor até a borda da tela
+				Container@ROW:
+					Width: PARENT_RIGHT - 24
+					Height: 20
+					Children:
+						Container@EDGESCROLL_CHECKBOX_CONTAINER:
+							X: PARENT_RIGHT / 2 + 10
+							Width: PARENT_RIGHT / 2 - 20
+							Children:
+								Checkbox@EDGESCROLL_CHECKBOX:
+									Width: PARENT_RIGHT
+									Height: 20
+									Font: Regular
+									Text: Mover câmera pela borda da tela
+				Container@ROW:
+					Width: PARENT_RIGHT - 24
+					Height: 20
+					Children:
+						Container@ALTERNATE_SCROLL_CHECKBOX_CONTAINER:
+							X: PARENT_RIGHT / 2 + 10
+							Width: PARENT_RIGHT / 2 - 20
+							Children:
+								Checkbox@ALTERNATE_SCROLL_CHECKBOX:
+									Width: PARENT_RIGHT
+									Height: 20
+									Font: Regular
+									Text: Movimento alternativo com o mouse
+				Container@ROW:
+					Width: PARENT_RIGHT - 24
+					Height: 20
+					Children:
+						Container@LOCKMOUSE_CHECKBOX_CONTAINER:
+							X: PARENT_RIGHT / 2 + 10
+							Width: PARENT_RIGHT / 2 - 20
+							Children:
+								Checkbox@LOCKMOUSE_CHECKBOX:
+									Width: PARENT_RIGHT
+									Height: 20
+									Font: Regular
+									Text: Prender mouse na janela
+				Container@SPACER:
+					Height: 30
+				Container@ROW:
+					Width: PARENT_RIGHT - 24
+					Height: 50
+					Children:
+						Container@MOUSE_SCROLL_TYPE_CONTAINER:
+							X: 10
+							Width: PARENT_RIGHT / 2 - 20
+							Children:
+								Label@MOUSE_SCROLL_TYPE_LABEL:
+									Width: PARENT_RIGHT
+									Height: 20
+									Font: Regular
+									Text: Movimento da câmera:
+								DropDownButton@MOUSE_SCROLL_TYPE_DROPDOWN:
+									Y: 25
+									Width: PARENT_RIGHT
+									Height: 25
+									Font: Regular
+						Container@SCROLLSPEED_SLIDER_CONTAINER:
+							X: PARENT_RIGHT / 2 + 10
+							Width: PARENT_RIGHT / 2 - 20
+							Children:
+								Label@SCROLL_SPEED_LABEL:
+									Width: PARENT_RIGHT
+									Height: 20
+									Text: Velocidade da câmera:
+								Slider@SCROLLSPEED_SLIDER:
+									Y: 25
+									Width: PARENT_RIGHT
+									Height: 20
+									Ticks: 7
+									MinimumValue: 10
+									MaximumValue: 50
+				Container@ROW:
+					Width: PARENT_RIGHT - 24
+					Height: 50
+					Children:
+						Container@ZOOMSPEED_SLIDER_CONTAINER:
+							X: PARENT_RIGHT / 2 + 10
+							Width: PARENT_RIGHT / 2 - 20
+							Children:
+								Label@ZOOM_SPEED_LABEL:
+									Width: PARENT_RIGHT
+									Height: 20
+									Text: Velocidade do zoom:
+								ExponentialSlider@ZOOMSPEED_SLIDER:
+									Y: 25
+									Width: PARENT_RIGHT
+									Height: 20
+									Ticks: 7
+									MinimumValue: 0.01
+									MaximumValue: 0.4
+				Container@ROW:
+					Width: PARENT_RIGHT - 24
+					Height: 50
+					Children:
+						Container@UI_SCROLLSPEED_SLIDER_CONTAINER:
+							X: PARENT_RIGHT / 2 + 10
+							Width: PARENT_RIGHT / 2 - 20
+							Children:
+								Label@UI_SCROLL_SPEED_LABEL:
+									Width: PARENT_RIGHT
+									Height: 20
+									Text: Rolagem da interface:
+								Slider@UI_SCROLLSPEED_SLIDER:
+									Y: 25
+									Width: PARENT_RIGHT
+									Height: 20
+									Ticks: 7
+									MinimumValue: 1
+									MaximumValue: 100

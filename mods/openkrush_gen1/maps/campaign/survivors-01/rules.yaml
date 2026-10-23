@@ -1,0 +1,11 @@
+World:
+	LuaScript:
+		Scripts: mission.lua
+	MissionData:
+		Briefing: Uma vila horrorosa de aberrações surgiu perto de um dos nossos impecáveis acampamentos de alta tecnologia. Nem que seja só pela estética, vá lá e jogue o lixo fora.\n\nObjetivo: elimine todas as forças Evolved da região.
+		BriefingVideo: heads01.vbc
+	-SpawnStartingUnits:
+	-MapStartingLocations:
+
+Player:
+	-ConquestVictoryConditions:

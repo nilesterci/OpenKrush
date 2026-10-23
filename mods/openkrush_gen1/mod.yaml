@@ -25,6 +25,7 @@ ModCredits:
 MapFolders:
 	openkrush_gen1|maps/classic: System
 	openkrush_gen1|maps/multiplayer: System
+	openkrush_gen1|maps/campaign: System
 	~^SupportDir|maps/openkrush_gen1/{DEV_VERSION}: User
 
 Rules:
@@ -66,73 +67,74 @@ Assemblies:
 	^BinDir|OpenRA.Mods.OpenKrush.dll
 
 ChromeLayout:
-	common|chrome/ingame.yaml
-	common|chrome/ingame-chat.yaml
-	common|chrome/ingame-transients.yaml
-	common|chrome/ingame-fmvplayer.yaml
-	common|chrome/ingame-info.yaml
-	common|chrome/ingame-infoscripterror.yaml
-	common|chrome/ingame-infobriefing.yaml
-	common|chrome/ingame-infoobjectives.yaml
-	common|chrome/ingame-infostats.yaml
-	common|chrome/ingame-info-lobby-options.yaml
+	openkrush_gen1|chrome/ingame.yaml
+	openkrush_gen1|chrome/ingame-chat.yaml
+	openkrush_gen1|chrome/ingame-transients.yaml
+	openkrush_gen1|chrome/ingame-fmvplayer.yaml
+	openkrush_gen1|chrome/ingame-info.yaml
+	openkrush_gen1|chrome/ingame-infoscripterror.yaml
+	openkrush_gen1|chrome/ingame-infobriefing.yaml
+	openkrush_gen1|chrome/ingame-infoobjectives.yaml
+	openkrush_gen1|chrome/ingame-infostats.yaml
+	openkrush_gen1|chrome/ingame-info-lobby-options.yaml
 	openkrush|chrome/ingame-menu.yaml
-	common|chrome/ingame-observer.yaml
+	openkrush_gen1|chrome/ingame-observer.yaml
 	openkrush|chrome/ingame-player.yaml
-	common|chrome/ingame-perf.yaml
-	common|chrome/ingame-debug.yaml
-	common|chrome/ingame-debuginfo.yaml
-	common|chrome/ingame-infochat.yaml
+	openkrush_gen1|chrome/ingame-perf.yaml
+	openkrush_gen1|chrome/ingame-debug.yaml
+	openkrush_gen1|chrome/ingame-debuginfo.yaml
+	openkrush_gen1|chrome/ingame-infochat.yaml
 	openkrush|chrome/mainmenu.yaml
-	common|chrome/mainmenu-prompts.yaml
-	common|chrome/settings.yaml
-	common|chrome/settings-display.yaml
-	common|chrome/settings-audio.yaml
-	common|chrome/settings-input.yaml
-	common|chrome/settings-hotkeys.yaml
-	common|chrome/settings-advanced.yaml
-	common|chrome/credits.yaml
-	common|chrome/lobby.yaml
-	common|chrome/lobby-mappreview.yaml
-	common|chrome/lobby-players.yaml
-	common|chrome/lobby-options.yaml
-	common|chrome/lobby-music.yaml
-	common|chrome/lobby-servers.yaml
-	common|chrome/lobby-kickdialogs.yaml
-	common|chrome/color-picker.yaml
-	common|chrome/map-chooser.yaml
-	common|chrome/multiplayer-browser.yaml
-	common|chrome/multiplayer-browserpanels.yaml
-	common|chrome/multiplayer-createserver.yaml
-	common|chrome/multiplayer-directconnect.yaml
-	common|chrome/connection.yaml
-	common|chrome/replaybrowser.yaml
-	common|chrome/gamesave-browser.yaml
-	common|chrome/gamesave-loading.yaml
-	common|chrome/dropdowns.yaml
-	common|chrome/musicplayer.yaml
-	common|chrome/tooltips.yaml
-	common|chrome/assetbrowser.yaml
-	common|chrome/missionbrowser.yaml
-	common|chrome/confirmation-dialogs.yaml
-	common|chrome/editor.yaml
-	common|chrome/playerprofile.yaml
-	common|chrome/text-notifications.yaml
+	openkrush_gen1|chrome/mainmenu-prompts.yaml
+	openkrush_gen1|chrome/settings.yaml
+	openkrush_gen1|chrome/settings-display.yaml
+	openkrush_gen1|chrome/settings-audio.yaml
+	openkrush_gen1|chrome/settings-input.yaml
+	openkrush_gen1|chrome/settings-hotkeys.yaml
+	openkrush_gen1|chrome/settings-advanced.yaml
+	openkrush_gen1|chrome/credits.yaml
+	openkrush_gen1|chrome/lobby.yaml
+	openkrush_gen1|chrome/lobby-mappreview.yaml
+	openkrush_gen1|chrome/lobby-players.yaml
+	openkrush_gen1|chrome/lobby-options.yaml
+	openkrush_gen1|chrome/lobby-music.yaml
+	openkrush_gen1|chrome/lobby-servers.yaml
+	openkrush_gen1|chrome/lobby-kickdialogs.yaml
+	openkrush_gen1|chrome/color-picker.yaml
+	openkrush_gen1|chrome/map-chooser.yaml
+	openkrush_gen1|chrome/multiplayer-browser.yaml
+	openkrush_gen1|chrome/multiplayer-browserpanels.yaml
+	openkrush_gen1|chrome/multiplayer-createserver.yaml
+	openkrush_gen1|chrome/multiplayer-directconnect.yaml
+	openkrush_gen1|chrome/connection.yaml
+	openkrush_gen1|chrome/replaybrowser.yaml
+	openkrush_gen1|chrome/gamesave-browser.yaml
+	openkrush_gen1|chrome/gamesave-loading.yaml
+	openkrush_gen1|chrome/dropdowns.yaml
+	openkrush_gen1|chrome/musicplayer.yaml
+	openkrush_gen1|chrome/tooltips.yaml
+	openkrush_gen1|chrome/assetbrowser.yaml
+	openkrush_gen1|chrome/missionbrowser.yaml
+	openkrush_gen1|chrome/confirmation-dialogs.yaml
+	openkrush_gen1|chrome/editor.yaml
+	openkrush_gen1|chrome/playerprofile.yaml
+	openkrush_gen1|chrome/text-notifications.yaml
 
 Translations:
 	common|languages/en.ftl
+	openkrush_gen1|languages/pt.ftl
 
 Hotkeys:
-	common|hotkeys/chat.yaml
-	common|hotkeys/control-groups.yaml
-	common|hotkeys/editor.yaml
-	common|hotkeys/game.yaml
+	openkrush_gen1|hotkeys/chat.yaml
+	openkrush_gen1|hotkeys/control-groups.yaml
+	openkrush_gen1|hotkeys/editor.yaml
+	openkrush_gen1|hotkeys/game.yaml
 	openkrush|hotkeys/game.yaml
-	common|hotkeys/observer.yaml
-	common|hotkeys/production-common.yaml
+	openkrush_gen1|hotkeys/observer.yaml
+	openkrush_gen1|hotkeys/production-common.yaml
 	openkrush|hotkeys/production.yaml
-	common|hotkeys/supportpowers.yaml
-	common|hotkeys/viewport.yaml
+	openkrush_gen1|hotkeys/supportpowers.yaml
+	openkrush_gen1|hotkeys/viewport.yaml
 
 LoadScreen: LoadScreen
 
@@ -214,11 +216,11 @@ GameSpeeds:
 	DefaultSpeed: default
 	Speeds:
 		slowest:
-			Name: Slowest
+			Name: Muito lenta
 			Timestep: 80
 			OrderLatency: 2
 		slower:
-			Name: Slower
+			Name: Lenta
 			Timestep: 50
 			OrderLatency: 3
 		default:
@@ -226,15 +228,15 @@ GameSpeeds:
 			Timestep: 40
 			OrderLatency: 3
 		fast:
-			Name: Fast
+			Name: Rápida
 			Timestep: 35
 			OrderLatency: 4
 		faster:
-			Name: Faster
+			Name: Muito rápida
 			Timestep: 30
 			OrderLatency: 4
 		fastest:
-			Name: Fastest
+			Name: Máxima
 			Timestep: 20
 			OrderLatency: 6
 

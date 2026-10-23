@@ -10,6 +10,8 @@
 	QuantizeFacingsFromSequence: # TODO see BodyOrientation todo
 	# Required to see debug overlays.
 	CombatDebugOverlay:
+	# Required for mission scripts to attach triggers (OnKilled, OnDamaged...).
+	ScriptTriggers:
 
 # Map decoration actors.
 ^CoreDecoration:

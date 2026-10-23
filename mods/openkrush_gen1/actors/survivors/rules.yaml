@@ -4,12 +4,12 @@ World:
 		InternalName: survivors
 	StartingUnits@survivors0:
 		Class: none
-		ClassName: Mobile Base
+		ClassName: Base móvel
 		BaseActor: survivors_vehicle_mobileoutpost
 		Factions: survivors
 	StartingUnits@survivors1:
 		Class: support
-		ClassName: With Derrick
+		ClassName: Com Derrick
 		BaseActor: survivors_vehicle_mobileoutpost
 		SupportActors: survivors_vehicle_derrick
 		InnerSupportRadius: 4
@@ -17,7 +17,7 @@ World:
 		Factions: survivors
 	StartingUnits@survivors2:
 		Class: light
-		ClassName: Light support
+		ClassName: Apoio leve
 		BaseActor: survivors_vehicle_mobileoutpost
 		SupportActors: survivors_vehicle_derrick, survivors_infantry_rifleman, survivors_infantry_rifleman, survivors_infantry_rifleman, survivors_infantry_rifleman, survivors_infantry_rifleman
 		InnerSupportRadius: 4
@@ -25,7 +25,7 @@ World:
 		Factions: survivors
 	StartingUnits@survivors3:
 		Class: heavy
-		ClassName: Heavy support
+		ClassName: Apoio pesado
 		BaseActor: survivors_vehicle_mobileoutpost
 		SupportActors: survivors_vehicle_derrick, survivors_vehicle_dirtbike, survivors_vehicle_4x4pickup, survivors_vehicle_allterrainvehicle, survivors_vehicle_flameatv
 		InnerSupportRadius: 4
@@ -33,7 +33,7 @@ World:
 		Factions: survivors
 	StartingUnits@survivors4:
 		Class: eco
-		ClassName: Eco support
+		ClassName: Apoio econômico
 		BaseActor: survivors_vehicle_mobileoutpost
 		SupportActors: survivors_vehicle_derrick, survivors_vehicle_derrick, survivors_vehicle_oiltanker, survivors_vehicle_oiltanker
 		InnerSupportRadius: 4

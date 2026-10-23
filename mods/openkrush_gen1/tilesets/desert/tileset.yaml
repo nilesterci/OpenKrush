@@ -1,5 +1,5 @@
 General:
-	Name: Desert
+	Name: Deserto
 	Id: desert
 	EditorTemplateOrder: Terrain, Beach, Bridge, Cliff, Cliff Extra, Cliff Ramp, Decoration, Path, Path Extra, Street, Street Extra, Transition Dirt Sand, Transition Dirt Sand Extra, Transition Grass Dirt
 	SheetSize: 2048

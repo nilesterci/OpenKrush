@@ -1,0 +1,174 @@
+mapground_0_0:
+	idle: mapground_0_0.png
+		ZOffset: -65536
+		Offset: 112,112
+
+mapground_1_0:
+	idle: mapground_1_0.png
+		ZOffset: -65536
+		Offset: 112,112
+
+mapground_2_0:
+	idle: mapground_2_0.png
+		ZOffset: -65536
+		Offset: 112,112
+
+mapground_3_0:
+	idle: mapground_3_0.png
+		ZOffset: -65536
+		Offset: 112,112
+
+mapground_4_0:
+	idle: mapground_4_0.png
+		ZOffset: -65536
+		Offset: 112,112
+
+mapground_5_0:
+	idle: mapground_5_0.png
+		ZOffset: -65536
+		Offset: 112,112
+
+mapground_6_0:
+	idle: mapground_6_0.png
+		ZOffset: -65536
+		Offset: 112,112
+
+mapground_0_1:
+	idle: mapground_0_1.png
+		ZOffset: -65536
+		Offset: 112,112
+
+mapground_1_1:
+	idle: mapground_1_1.png
+		ZOffset: -65536
+		Offset: 112,112
+
+mapground_2_1:
+	idle: mapground_2_1.png
+		ZOffset: -65536
+		Offset: 112,112
+
+mapground_3_1:
+	idle: mapground_3_1.png
+		ZOffset: -65536
+		Offset: 112,112
+
+mapground_4_1:
+	idle: mapground_4_1.png
+		ZOffset: -65536
+		Offset: 112,112
+
+mapground_5_1:
+	idle: mapground_5_1.png
+		ZOffset: -65536
+		Offset: 112,112
+
+mapground_6_1:
+	idle: mapground_6_1.png
+		ZOffset: -65536
+		Offset: 112,112
+
+mapground_0_2:
+	idle: mapground_0_2.png
+		ZOffset: -65536
+		Offset: 112,112
+
+mapground_1_2:
+	idle: mapground_1_2.png
+		ZOffset: -65536
+		Offset: 112,112
+
+mapground_2_2:
+	idle: mapground_2_2.png
+		ZOffset: -65536
+		Offset: 112,112
+
+mapground_3_2:
+	idle: mapground_3_2.png
+		ZOffset: -65536
+		Offset: 112,112
+
+mapground_4_2:
+	idle: mapground_4_2.png
+		ZOffset: -65536
+		Offset: 112,112
+
+mapground_5_2:
+	idle: mapground_5_2.png
+		ZOffset: -65536
+		Offset: 112,112
+
+mapground_6_2:
+	idle: mapground_6_2.png
+		ZOffset: -65536
+		Offset: 112,112
+
+mapground_0_3:
+	idle: mapground_0_3.png
+		ZOffset: -65536
+		Offset: 112,112
+
+mapground_1_3:
+	idle: mapground_1_3.png
+		ZOffset: -65536
+		Offset: 112,112
+
+mapground_2_3:
+	idle: mapground_2_3.png
+		ZOffset: -65536
+		Offset: 112,112
+
+mapground_3_3:
+	idle: mapground_3_3.png
+		ZOffset: -65536
+		Offset: 112,112
+
+mapground_4_3:
+	idle: mapground_4_3.png
+		ZOffset: -65536
+		Offset: 112,112
+
+mapground_5_3:
+	idle: mapground_5_3.png
+		ZOffset: -65536
+		Offset: 112,112
+
+mapground_6_3:
+	idle: mapground_6_3.png
+		ZOffset: -65536
+		Offset: 112,112
+
+mapground_0_4:
+	idle: mapground_0_4.png
+		ZOffset: -65536
+		Offset: 112,112
+
+mapground_1_4:
+	idle: mapground_1_4.png
+		ZOffset: -65536
+		Offset: 112,112
+
+mapground_2_4:
+	idle: mapground_2_4.png
+		ZOffset: -65536
+		Offset: 112,112
+
+mapground_3_4:
+	idle: mapground_3_4.png
+		ZOffset: -65536
+		Offset: 112,112
+
+mapground_4_4:
+	idle: mapground_4_4.png
+		ZOffset: -65536
+		Offset: 112,112
+
+mapground_5_4:
+	idle: mapground_5_4.png
+		ZOffset: -65536
+		Offset: 112,112
+
+mapground_6_4:
+	idle: mapground_6_4.png
+		ZOffset: -65536
+		Offset: 112,112

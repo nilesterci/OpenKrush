@@ -4,7 +4,7 @@ evolved_aircraft_wasp:
 	Tooltip:
 		Name: Wasp
 	TooltipDescription:
-		Description: Goes boom!
+		Description: Faz bum!
 	Health:
 		HP: 1500
 	Aircraft:

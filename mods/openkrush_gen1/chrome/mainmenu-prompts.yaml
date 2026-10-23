@@ -1,0 +1,355 @@
+Background@MAINMENU_INTRODUCTION_PROMPT:
+	Logic: IntroductionPromptLogic
+	X: (WINDOW_RIGHT - WIDTH) / 2
+	Y: (WINDOW_BOTTOM - HEIGHT) / 2
+	Width: 700
+	Height: 525
+	Children:
+		Label@PROMPT_TITLE:
+			Width: PARENT_RIGHT
+			Y: 20
+			Height: 25
+			Font: Bold
+			Align: Center
+			Text: Estabelecendo controle do campo de batalha
+		Label@DESC_A:
+			Width: PARENT_RIGHT
+			Y: 50
+			Height: 16
+			Font: Regular
+			Align: Center
+			Text: Bem-vindo de volta, Comandante! Defina os parâmetros de combate abaixo.
+		Label@DESC_B:
+			Width: PARENT_RIGHT
+			Y: 68
+			Height: 16
+			Font: Regular
+			Align: Center
+			Text: Outras opções podem ser ajustadas depois no menu Configurações.
+		ScrollPanel@SETTINGS_SCROLLPANEL:
+			X: 20
+			Y: 100
+			Width: PARENT_RIGHT - 40
+			Height: PARENT_BOTTOM - 155
+			CollapseHiddenChildren: True
+			TopBottomSpacing: 5
+			ItemSpacing: 10
+			ScrollBar: Hidden
+			Children:
+				Background@SECTION_HEADER:
+					X: 5
+					Width: PARENT_RIGHT - 10
+					Height: 13
+					Background: separator
+					ClickThrough: True
+					Children:
+						Label@LABEL:
+							Width: PARENT_RIGHT
+							Height: PARENT_BOTTOM
+							Font: TinyBold
+							Align: Center
+							Text: Perfil
+				Container@ROW:
+					Width: PARENT_RIGHT
+					Height: 50
+					Children:
+						Container@PLAYER_CONTAINER:
+							X: 10
+							Width: PARENT_RIGHT / 2 - 20
+							Children:
+								Label@PLAYER:
+									Width: PARENT_RIGHT
+									Height: 20
+									Text: Nome do jogador:
+								TextField@PLAYERNAME:
+									Y: 25
+									Width: PARENT_RIGHT
+									Height: 25
+									MaxLength: 16
+									Text: Nome
+						Container@PLAYERCOLOR_CONTAINER:
+							X: PARENT_RIGHT / 2 + 10
+							Width: PARENT_RIGHT / 2 - 20
+							Children:
+								Label@COLOR:
+									Width: PARENT_RIGHT
+									Height: 20
+									Text: Cor preferida:
+								DropDownButton@PLAYERCOLOR:
+									Y: 25
+									Width: 75
+									Height: 25
+									IgnoreChildMouseOver: true
+									PanelAlign: Right
+									Children:
+										ColorBlock@COLORBLOCK:
+											X: 5
+											Y: 6
+											Width: PARENT_RIGHT - 35
+											Height: PARENT_BOTTOM - 12
+				Container@SPACER:
+				Background@SECTION_HEADER:
+					X: 5
+					Width: PARENT_RIGHT - 10
+					Height: 13
+					Background: separator
+					ClickThrough: True
+					Children:
+						Label@LABEL:
+							Width: PARENT_RIGHT
+							Height: PARENT_BOTTOM
+							Font: TinyBold
+							Align: Center
+							Text: Controles
+				Container@ROW:
+					Width: PARENT_RIGHT
+					Height: 50
+					Children:
+						Container@MOUSE_CONTROL_CONTAINER:
+							X: 10
+							Width: PARENT_RIGHT / 2 - 20
+							Children:
+								Label@MOUSE_CONTROL_LABEL:
+									Width: PARENT_RIGHT
+									Height: 20
+									Font: Regular
+									Text: Esquema de controle:
+								DropDownButton@MOUSE_CONTROL_DROPDOWN:
+									Y: 25
+									Width: PARENT_RIGHT
+									Height: 25
+									Font: Regular
+						Container@MOUSE_CONTROL_DESC_CLASSIC:
+							X: PARENT_RIGHT / 2 + 10
+							Width: PARENT_RIGHT / 2 - 20
+							Children:
+								LabelWithHighlight@DESC_SELECTION:
+									Height: 16
+									Font: Small
+									Text: - Selecione unidades com o botão {esquerdo} do mouse
+								LabelWithHighlight@DESC_COMMANDS:
+									Y: 17
+									Height: 16
+									Font: Small
+									Text: - Comande unidades com o botão {esquerdo} do mouse
+								LabelWithHighlight@DESC_BUILDIGS:
+									Y: 34
+									Height: 16
+									Font: Small
+									Text: - Posicione construções com o botão {esquerdo} do mouse
+								LabelWithHighlight@DESC_SUPPORT:
+									Y: 51
+									Height: 16
+									Font: Small
+									Text: - Mire os poderes especiais com o botão {esquerdo} do mouse
+								LabelWithHighlight@DESC_ZOOM:
+									Y: 68
+									Height: 16
+									Font: Small
+									Text: - Aproxime a câmera com a {roda do mouse}
+								LabelWithHighlight@DESC_ZOOM_MODIFIER:
+									Y: 68
+									Height: 16
+									Font: Small
+									Text: - Aproxime a câmera com {MODIFICADOR + roda do mouse}
+								LabelWithHighlight@DESC_SCROLL_RIGHT:
+									Y: 85
+									Height: 16
+									Font: Small
+									Text: - Mova a câmera com o botão {direito} do mouse
+								LabelWithHighlight@DESC_SCROLL_MIDDLE:
+									Y: 85
+									Height: 16
+									Font: Small
+									Text: - Mova a câmera com o botão {do meio} do mouse
+								Label@DESC_EDGESCROLL:
+									X: 9
+									Y: 102
+									Height: 16
+									Font: Small
+									Text: ou levando o cursor até a borda da tela
+						Container@MOUSE_CONTROL_DESC_MODERN:
+							X: PARENT_RIGHT / 2 + 10
+							Width: PARENT_RIGHT / 2 - 20
+							Children:
+								LabelWithHighlight@DESC_SELECTION:
+									Height: 16
+									Font: Small
+									Text: - Selecione unidades com o botão {esquerdo} do mouse
+								LabelWithHighlight@DESC_COMMANDS:
+									Y: 17
+									Height: 16
+									Font: Small
+									Text: - Comande unidades com o botão {direito} do mouse
+								LabelWithHighlight@DESC_BUILDIGS:
+									Y: 34
+									Height: 16
+									Font: Small
+									Text: - Posicione construções com o botão {esquerdo} do mouse
+								LabelWithHighlight@DESC_SUPPORT:
+									Y: 51
+									Height: 16
+									Font: Small
+									Text: - Mire os poderes especiais com o botão {esquerdo} do mouse
+								LabelWithHighlight@DESC_ZOOM:
+									Y: 68
+									Height: 16
+									Font: Small
+									Text: - Aproxime a câmera com a {roda do mouse}
+								LabelWithHighlight@DESC_ZOOM_MODIFIER:
+									Y: 68
+									Height: 16
+									Font: Small
+									Text: - Aproxime a câmera com {MODIFICADOR + roda do mouse}
+								LabelWithHighlight@DESC_SCROLL_RIGHT:
+									Y: 85
+									Height: 16
+									Font: Small
+									Text: - Mova a câmera com o botão {direito} do mouse
+								LabelWithHighlight@DESC_SCROLL_MIDDLE:
+									Y: 85
+									Height: 16
+									Font: Small
+									Text: - Mova a câmera com o botão {do meio} do mouse
+								Label@DESC_EDGESCROLL:
+									X: 9
+									Y: 102
+									Height: 16
+									Font: Small
+									Text: ou levando o cursor até a borda da tela
+				Container@ROW:
+					Width: PARENT_RIGHT
+					Height: 20
+					Children:
+						Container@EDGESCROLL_CHECKBOX_CONTAINER:
+							X: 10
+							Width: PARENT_RIGHT / 2 - 20
+							Children:
+								Checkbox@EDGESCROLL_CHECKBOX:
+									Width: PARENT_RIGHT
+									Height: 20
+									Font: Regular
+									Text: Mover câmera pela borda da tela
+				Container@SPACER:
+					Height: 30
+				Background@SECTION_HEADER:
+					X: 5
+					Width: PARENT_RIGHT - 10
+					Height: 13
+					Background: separator
+					ClickThrough: True
+					Children:
+						Label@LABEL:
+							Width: PARENT_RIGHT
+							Height: PARENT_BOTTOM
+							Font: TinyBold
+							Align: Center
+							Text: Vídeo
+				Container@ROW:
+					Width: PARENT_RIGHT
+					Height: 50
+					Children:
+						Container@BATTLEFIELD_CAMERA_DROPDOWN_CONTAINER:
+							X: 10
+							Width: PARENT_RIGHT / 2 - 20
+							Children:
+								Label@BATTLEFIELD_CAMERA:
+									Width: PARENT_RIGHT
+									Height: 20
+									Text: Câmera:
+								DropDownButton@BATTLEFIELD_CAMERA_DROPDOWN:
+									Y: 25
+									Width: PARENT_RIGHT
+									Height: 25
+									Font: Regular
+						Container@UI_SCALE_DROPDOWN_CONTAINER:
+							X: PARENT_RIGHT / 2 + 10
+							Width: PARENT_RIGHT / 2 - 20
+							Children:
+								Label@UI_SCALE:
+									Width: PARENT_RIGHT
+									Height: 20
+									Text: Escala da interface:
+								DropDownButton@UI_SCALE_DROPDOWN:
+									Y: 25
+									Width: PARENT_RIGHT
+									Height: 25
+									Font: Regular
+				Container@ROW:
+					Width: PARENT_RIGHT
+					Height: 20
+					Children:
+						Container@CURSORDOUBLE_CHECKBOX_CONTAINER:
+							X: PARENT_RIGHT / 2 + 10
+							Width: PARENT_RIGHT / 2 - 20
+							Children:
+								Checkbox@CURSORDOUBLE_CHECKBOX:
+									Width: PARENT_RIGHT
+									Height: 20
+									Font: Regular
+									Text: Aumentar cursor
+		Button@CONTINUE_BUTTON:
+			X: PARENT_RIGHT - 180
+			Y: PARENT_BOTTOM - 45
+			Width: 160
+			Height: 25
+			Text: Continuar
+			Font: Bold
+			Key: return
+
+Background@MAINMENU_SYSTEM_INFO_PROMPT:
+	Logic: SystemInfoPromptLogic
+	X: (WINDOW_RIGHT - WIDTH) / 2
+	Y: (WINDOW_BOTTOM - HEIGHT) / 2
+	Width: 600
+	Height: 430
+	Children:
+		Label@PROMPT_TITLE:
+			Width: PARENT_RIGHT
+			Y: 20
+			Height: 25
+			Font: Bold
+			Align: Center
+			Text: Estabelecendo controle do campo de batalha
+		Label@PROMPT_TEXT_A:
+			X: 15
+			Y: 50
+			Width: PARENT_RIGHT - 30
+			Height: 16
+			Align: Center
+			Text: Gostaríamos de coletar alguns dados do sistema para ajudar a otimizar o OpenRA.
+		Label@PROMPT_TEXT_B:
+			X: 15
+			Y: 68
+			Width: PARENT_RIGHT - 30
+			Height: 16
+			Align: Center
+			Text: Com sua permissão, estes dados anônimos serão enviados a cada início do jogo:
+		ScrollPanel@SYSINFO_DATA:
+			X: 20
+			Y: 98
+			Width: PARENT_RIGHT - 40
+			Height: 355-98-10
+			TopBottomSpacing: 4
+			ItemSpacing: 4
+			Children:
+				Label@DATA_TEMPLATE:
+					X: 8
+					Height: 13
+					VAlign: Top
+					Font: Small
+		Checkbox@SYSINFO_CHECKBOX:
+			X: 390
+			Y: 353
+			Width: 200
+			Height: 20
+			Font: Regular
+			Text: Enviar informações do sistema
+		Button@CONTINUE_BUTTON:
+			X: PARENT_RIGHT - WIDTH - 20
+			Y: PARENT_BOTTOM - 45
+			Width: 160
+			Height: 25
+			Text: Continuar
+			Font: Bold
+			Key: return

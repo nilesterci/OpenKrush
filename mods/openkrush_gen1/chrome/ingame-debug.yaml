@@ -1,0 +1,137 @@
+Container@DEBUG_PANEL:
+	Logic: DebugMenuLogic
+	Y: 10
+	Width: PARENT_RIGHT
+	Height: PARENT_BOTTOM
+	Children:
+		Label@TITLE:
+			Y: 26
+			Font: Bold
+			Text: Opções de depuração
+			Align: Center
+			Width: PARENT_RIGHT
+		Checkbox@INSTANT_BUILD:
+			X: 45
+			Y: 45
+			Width: 200
+			Height: 20
+			Font: Regular
+			Text: Construção instantânea
+		Checkbox@ENABLE_TECH:
+			X: 45
+			Y: 75
+			Width: 200
+			Height: 20
+			Font: Regular
+			Text: Construir tudo
+		Checkbox@BUILD_ANYWHERE:
+			X: 45
+			Y: 105
+			Width: 200
+			Height: 20
+			Font: Regular
+			Text: Construir em qualquer lugar
+		Checkbox@UNLIMITED_POWER:
+			X: 290
+			Y: 45
+			Width: 200
+			Height: 20
+			Font: Regular
+			Text: Energia ilimitada
+		Checkbox@INSTANT_CHARGE:
+			X: 290
+			Y: 75
+			Width: 200
+			Height: 20
+			Font: Regular
+			Text: Recarga instantânea
+		Checkbox@DISABLE_VISIBILITY_CHECKS:
+			X: 290
+			Y: 105
+			Height: 20
+			Width: 200
+			Font: Regular
+			Text: Desativar verificação de visão
+		Button@GIVE_CASH:
+			X: 90
+			Y: 150
+			Width: 140
+			Height: 30
+			Font: Bold
+			Text: Dar $20.000
+		Button@GROW_RESOURCES:
+			X: 271
+			Y: 150
+			Width: 140
+			Height: 30
+			Font: Bold
+			Text: Crescer recursos
+		Button@GIVE_EXPLORATION:
+			X: 90
+			Y: 200
+			Width: 140
+			Height: 30
+			Font: Bold
+			Text: Remover névoa
+		Button@RESET_EXPLORATION:
+			X: 271
+			Y: 200
+			Width: 140
+			Height: 30
+			Font: Bold
+			Text: Restaurar névoa
+		Label@VISUALIZATIONS_TITLE:
+			Y: 256
+			Font: Bold
+			Text: Visualizações
+			Align: Center
+			Width: PARENT_RIGHT
+		Checkbox@SHOW_UNIT_PATHS:
+			X: 45
+			Y: 275
+			Width: 200
+			Height: 20
+			Font: Regular
+			Text: Mostrar caminhos das unidades
+		Checkbox@SHOW_CUSTOMTERRAIN_OVERLAY:
+			X: 45
+			Y: 305
+			Height: 20
+			Width: 200
+			Font: Regular
+			Text: Mostrar terreno personalizado
+		Checkbox@SHOW_ACTOR_TAGS:
+			X: 45
+			Y: 335
+			Height: 20
+			Width: 200
+			Font: Regular
+			Text: Mostrar tags dos atores
+		Checkbox@SHOW_COMBATOVERLAY:
+			X: 290
+			Y: 275
+			Height: 20
+			Width: 200
+			Font: Regular
+			Text: Mostrar geometria de combate
+		Checkbox@SHOW_GEOMETRY:
+			X: 290
+			Y: 305
+			Height: 20
+			Width: 200
+			Font: Regular
+			Text: Mostrar geometria de renderização
+		Checkbox@SHOW_TERRAIN_OVERLAY:
+			X: 290
+			Y: 335
+			Height: 20
+			Width: 200
+			Font: Regular
+			Text: Mostrar geometria do terreno
+		Checkbox@SHOW_SCREENMAP:
+			X: 290
+			Y: 365
+			Height: 20
+			Width: 200
+			Font: Regular
+			Text: Mostrar mapa de tela
